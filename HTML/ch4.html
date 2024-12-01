@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 4 html list</title>
+  </head>
+  <body>
+    <h1>unordered list</h1>
+    <ul type="square">
+      <li>Home</li>
+      <li>About</li>
+      <li>Services</li>
+      <li>Contact</li>
+    </ul>
+    <ul type="circle">
+      <li>this is circle</li>
+      <li>this is circle</li>
+      <li>this is circle</li>
+    </ul>
+    <!-- use it in css -->
+    <hr />
+    <h1>ordred list</h1>
+    <ol type="I">
+      <li>Home</li>
+      <li>About</li>
+      <li>Services</li>
+      <li>Contact</li>
+    </ol>
+    <ol type="A">
+      <li>Home</li>
+      <li>About</li>
+    </ol>
+    <hr />
+    <h2>definition list</h2>
+    <dl>
+      <dt>HTML</dt>
+      <dd>
+        i am learning html for full stack web development. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet doloremque error
+        molestias.
+      </dd>
+      <dt>CSS</dt>
+      <dd>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam consequatur earum qui ducimus cumque incidunt non rem aliquid ut.
+      </dd>
+    </dl>
+    <hr />
+    <h1>Table</h1>
+    <div>
+      <table>
+        <caption>
+          Max Scores by diffrent players
+        </caption>
+        <thead>
+          <tr>
+            <th>Serial Num</th>
+            <th>Player name</th>
+            <th>Max Score</th>
+            <th>Game</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td>Nahid</td>
+            <td>200</td>
+            <td>EAFC</td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>Sadman</td>
+            <td>100</td>
+            <td>Fifa23</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr />
+    <h1>colspan in table</h1>
+    <div>
+      <table>
+        <caption>
+          Max Scores by diffrent players
+        </caption>
+        <thead>
+          <tr>
+            <th>Serial Num</th>
+            <th>Player name</th>
+            <th colspan="2">Max Score</th>
+            <!-- <th> Game </th> -->
+            <!-- takes 2 coloumn -->
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01</td>
+            <td>Nahid</td>
+            <td>200</td>
+            <td>EAFC</td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>Sadman</td>
+            <td>100</td>
+            <td>Fifa23</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr />
+    <hr />
+    <h1>html forms</h1>
+    <div>
+      <form action="post">
+        <input type="text" placeholder="enter your name" /> <br />
+        <p>radio box</p>
+        <label for="sectionida"> <input type="radio" value="section a" name="section" id="sectionida" /> Section A </label>
+        <label for="sectionidb"> <input type="radio" value="section b" name="section" id="sectionidb" /> Section B </label>
+        <label for="sectionidc"> <input type="radio" value="section c" name="section" id="sectionidc" /> Section B </label> <br />
+        <p>checkbox</p>
+        <input type="checkbox" name=" canteen" id="food" class="red" />
+        <label for="food"> want food canteen?</label> <br />
+        <textarea name="explain" id="explain" cols="30" rows="10" placeholder="why you want to join ?"></textarea> <br />
+        <select name="car" id="car">
+          <option value="no car">select your car</option>
+          <option value="omni">Omni</option>
+          <option value="Toyota">Toyota</option>
+          <option value="Desire">Desire</option>
+          <option value="BMW">BMW</option>
+        </select>
+      </form>
+    </div>
+    <hr />
+    <hr />
+    <h1>embeded video</h1>
+    <div>
+      <h3>youtube video</h3>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/cmK70hHzFAU?si=sYTOL5_wZzGNpehW"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
+      <br />
+      <br />
+
+      <iframe src="https://www.bing.com" frameborder="0" width="892px"></iframe>
+      <br />
+      <h1>offline video</h1>
+      <video src="Real.mp4" controls width="400px"></video>
+      <!-- can use autoplay and loop in video command -->
+      <hr />
+      <h3>svg in site</h3>
+      <svg height="100" width="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+      </svg>
+    </div>
+  </body>
+</html>
