@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form html</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/xrgwpzda" method="post">
+    <!--can use third party forms using api-->
+    <h2> Reg form</h2>
+    <form>
+     <div>
+       <label for="Fullname"> Fullname: </label> <input type="text" name="Fullname" id="Fullname" required> <!--required tag for mandatory fill--> <!--label tag used for labeling-->
+     </div> <br/>
+
+     <div>
+        <label for="ID">ID:</label>
+        <input type="ID" name="ID" id="ID">
+     </div> <br/>
+     
+     <div>
+        <label for="password">Password:</label> <input type="password" name="password" id="password">
+     </div> <br/>
+
+     <div>
+        <label for="dob">Date of Birth:</label> <input type="date" name="dob" id="dob">
+     </div> <br/>
+
+     <div>
+        <label for="photo">Input Photo:</label> <input type="file" name="photo" id="photo">
+    </div> <br/>
+
+    <div>
+        <label for="gender">Choose Gender:</label> <input type="radio" name="gender"  id="gender" value="male"> Male
+        <input type="radio" name="gender"  id="gender" value="female"> Female
+        <!--2 input for each male & female-->
+    </div> <br/>
+
+    <div>
+        <label for="skill">Choose Skill:</label> <input type="checkbox" name="skill"  id="MS Word" value="MS Word"> MS Word
+        <input type="checkbox" name="skill"  id="Photoshop" value="Photoshop"> Photoshop
+        <input checked type="checkbox" name="skill"  id="other" value="other"> Other <!--checked is used as default value-->
+        <!--checkbox can be selected multiple-->
+    </div> <br/>
+
+    <div>
+        <label for="dept">Department: </label>
+        <select name="Dept">
+            <option value="cse"> CSE </option>
+            <option value="eee"> EEE </option>
+            <option value="swe"> SWE </option> <!--values send data as form value-->  
+            <!--dropdown menu-->
+        </select>
+    </div> <br/>
+
+    <div>
+        <label for="message"> Message: </label> <br/>
+        <textarea cols="30" rows="20"> </textarea>
+    </div> <!--msg or comments area--> <br/>
+
+    <div>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear" disabled> <!--for disabling button--> <!--for clearing form-->
+    </div> <!--for creatng button-->
+
+
+    </form>
+
+</body>
+
+</html>
