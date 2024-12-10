@@ -1,0 +1,21 @@
+h1{
+    color: darkred
+}
+h2{
+    color: rgb(74, 112, 31);
+}
+.keyword{
+    color: blue;
+}
+.hex{
+    color:#c49c1a
+}
+.rgb{
+    color: rgb(36, 182, 10);
+}
+.rgba{
+    color:rgba(56, 7, 58, 0.5)
+}
+.hsl{
+    color:hsl(239, 76%, 25%)
+}
