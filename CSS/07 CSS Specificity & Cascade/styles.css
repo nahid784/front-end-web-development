@@ -1,0 +1,59 @@
+/* the specificity of this selector is 1 */
+h1 {
+  color: red;
+}
+/* the specificity of this selector is 10 */
+.yellow {
+  color: yellow;
+}
+
+/* the specificity of this selector is 10 */
+.cred {
+  color: red;
+}
+
+/* the specificity of this selector is 10 */
+.cpurple {
+  color: purple;
+}
+/* last style get first priority */
+
+/* if it has multiple css selector then specificity comes */
+
+/* the specificity of this selector is 10 */
+[data-x="a"] {
+  background-color: blue;
+  color: aliceblue;
+}
+/* this is a attribute selector */
+
+/* order of specificity: inline style(1000) > ID Selector(100) > class of attribute selector(10) > element selector(1) > universal selector(0) */
+
+/* the specificity of this selector is 10 */
+.green {
+  color: green !important;
+}
+/* using important  command to specify */
+
+/* the specificity of this selector is 10 */
+.blue {
+  color: blue;
+}
+
+/* the specificity of this selector is 1 + 10 = 11*/
+h3.pink {
+    color: rgb(158, 56, 25);
+  }
+
+/* the specificity of this selector is 10 */
+.brown {
+  color: brown;
+}
+
+/* the specificity of this selector is 1 + 10 + 10 + 10 + 10 = 41 */
+a.nhdclass.nahid-class[href]:hover {
+    color: darkgray;
+
+}
+
+
