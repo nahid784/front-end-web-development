@@ -1,0 +1,12 @@
+.box{
+    border: 2px solid black;
+    padding: 30px;
+    box-shadow: 5px 6px 10px 3px rgb(113, 177, 40);
+}
+.txtshdw{
+    text-shadow: 2px 2px 4px blueviolet;
+    outline: 2px solid blue;
+    outline-offset: 2px;
+    border-radius: 12px;
+    /* for curve side in border */
+}
