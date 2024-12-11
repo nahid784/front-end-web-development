@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  box-sizing: border-box;
+  border: 2px solid black;
+  width: 80vw;
+  height: 10vh;
+  /* unit is in viewport  */
+  margin: auto;
+  background-color: aquamarine;
+}
+
+.container {
+  box-sizing: border-box;
+  border: 2px solid black;
+  width: 80vw;
+  /* unit is in viewport  */
+  height: 45vh; /* takes height of viewport  */
+  margin: 23px auto;
+  /* font-size: 18px; */
+  background-color: aquamarine;
+  font-size: 10px;
+}
+.container p {
+  font-size: 2em;
+  /* it will inherit from font size */
+}
+
+html {
+  font-size: 10px;
+}
+
+.container2 {
+  box-sizing: border-box;
+  border: 2px solid black;
+  width: 50vw;
+  /* unit is in viewport  */
+  height: 80vh; /* takes height of viewport  */
+  margin: 23px auto;
+  /* font-size: 18px; */
+  background-color: aquamarine;
+}
+.container2 p {
+  font-size: 3rem;
+  /* it will inherit from html default font size */
+}
+
+.mycont {
+  background-color: red;
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin: 23px auto;
+  color: yellow;
+  font-size: 22px;
+  width: 100vmin;
+  /* in phone vmin is height but in pc vmin is width */
+  /* used for responsive */
+}
+.mycont2 {
+  background-color: red;
+  color: yellow;
+  font-size: 22px;
+  width: 100vmax;
+  /* in phone vmax is height but in pc vmax is width */
+  /* used for responsive */
+}
+
+.mycont3 {
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  margin: 23px auto;
+  color: rgb(34, 34, 18);
+  font-size: 22px;
+  /* width: 80vw; */
+  width: 80vw;
+  min-height: 15vh;
+  /* it will be minimum height */
+}
+.mycont4 {
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  margin: 23px auto;
+  color: rgb(34, 34, 18);
+  font-size: 22px;
+  /* width: 80vw; */
+  width: 80vw;
+  min-height: 30vh;
+  /* it will be minimum height */
+}
+
+.mycont4 > div {
+  width: 50%;
+  border: 2px solid red;
+}
+
+.mycont4 > div > p {
+  border: 2px solid blue;
+  width: 50%;
+}
