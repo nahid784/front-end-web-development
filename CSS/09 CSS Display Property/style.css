@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.div {
+  border: 2px solid blue;
+}
+
+.in {
+  border: 2px solid blue;
+  display: inline block;
+  /* block used for taking space */
+  margin: 20px;
+  padding: 45px;
+}
+
+.dis {
+  /* display: none; */
+  /* display none for hidden the content with space */
+  visibility: hidden;
+  /* it is used to show space of hidden content */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  /* making the content center */
+  /* display: inline-flex is for making all content in one line */
+  /* display: grid; */
+}
