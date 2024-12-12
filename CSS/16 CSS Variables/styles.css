@@ -1,0 +1,44 @@
+:root{
+    --color: rgb(99, 135, 212);
+    --seccolor: rgb(110, 218, 110);
+    --defpad: 23px;
+    --opa: 0.7;
+    --defop:0.2; 
+}
+/* globar variable declaration */
+/* can declares every styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: var(--color);
+}
+ul{
+    display: flex;
+    /* for making items horizontal */
+}
+
+ul li{
+    /* list-style: none; */
+    padding: var(--defpad);
+    border: 2px solid var(--seccolor);
+    opacity: var(--opa);
+}
+
+ul li:first-child{
+    --color: rgb(194, 180, 103);
+    /* local variable declaration */
+    background-color: var(--color);
+    opacity: var(--defop);
+}
+ul li:last-child{
+    --color: rgb(194, 180, 103);
+    /* local variable declaration */
+    background-color: var(--colors, aqua);
+    /* if variable is not found then use fallback vairable. ex: aqua color */
+}
+
+.container{
+    background-color: var(--seccolor);
+}
