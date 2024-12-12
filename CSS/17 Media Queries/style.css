@@ -1,0 +1,35 @@
+body{
+    background-color: red;
+}
+
+@media screen and (orientation: landscape){
+   body{
+        border: 2px solid rgb(19, 201, 59);
+   }
+}
+
+@media only screen and (max-width: 455px){
+    /* if screen is lesser than 455 then bg color will be blue */
+    /* can use min-width for greater than 455px  */
+    body{
+        background-color: blue;
+    }
+
+    .boxes{
+        flex-direction: column;
+        /* vertical to horizontal */
+    }
+}
+
+
+.boxes{
+    display: flex;
+}
+
+.box{
+    width: 344px;
+    height: 344px;
+    background-color: steelblue;
+    padding: 3px;
+    margin: 3px;
+}
