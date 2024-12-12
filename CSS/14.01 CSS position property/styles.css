@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 2px solid black;
+    height: 433px;
+    width: 80vw;
+    padding: 3px;
+    margin: 3px;
+}
+
+.parent{
+    /* Exception: tranform, filter or perspective properties can also make an element apear as positioned  */
+    padding: 43px;
+    margin: 34px;
+    border: 3px solid rgb(25, 96, 163);
+    /* position: absolute; */
+    /* transform: translate(0); */
+    /* box will relate to its parent without position also */
+    /* filter: invert(); */
+    /* color and other styles will be inverted with position style also */
+    /* perspective: 0em; */
+}
+.box0{
+    background-color: brown;
+    position: sticky;
+    top: 0px;
+    height: 111px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    background-color: aqua;
+    /* position: static; */
+    /* can't set any box value in static default position */
+    /* top: 20px; */
+    /* position: relative; */
+    z-index: 1; 
+    /* for showing a box on another box */
+    position: absolute;
+    /* it will relate with main parent of a page instead of the parent it belongs*/
+    /* but if position is absolute in parent then it will relate to its parent */
+    top: 0px;
+    left:0px;
+}
+.box2{
+    background-color: azure;
+    /* position: relative; */
+    top: -48px;
+    left: 100px;
+}
+.box3{
+    background-color: antiquewhite;
+    position: fixed;
+    /* it wont move from its position */
+    /* now the position is fixed */
+    bottom: 0px;
+    left: 8vw;
+    height: 111px;
+}
+.box4{
+     background-color: purple;
+}
