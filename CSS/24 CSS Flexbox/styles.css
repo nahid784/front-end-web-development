@@ -1,0 +1,64 @@
+.container {
+  border: 2px solid red;
+  display: flex;
+  /* we can use the properties of flexbox */
+  /* from vertical to horizontal */
+  /* its in left to right form */
+  height: 80vh;
+  justify-content: center;
+  /* will turn into horizontally center */
+  align-items: center;
+  /* will turn vertically center for single line */
+
+  flex-direction: column;
+  /* from up to down */
+
+  /* flex-direction: column-reverse; it will reverse the direction */
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  /* it will add new line if box are filled in first line */
+
+  /* align-content: center; */
+
+  /* align content for more than one line */
+
+  gap: 30px;
+
+  /* items gaps will 30px gap both horizontal & verical */
+
+  column-gap: 10px;
+
+  row-gap: 12px;
+}
+
+.item { 
+  /* flex-grow: 1; */
+  /* by default grow is 0 */
+  height: 92px;
+  width: 92px;
+  background-color: blueviolet;
+  border: 2px solid black;
+  /* margin: 4px; */
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+/* the higher the order, the last it will be placed */
+
+.item1{
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+    /* it cam be shrink in smaller */
+    align-self: flex-start;
+}
