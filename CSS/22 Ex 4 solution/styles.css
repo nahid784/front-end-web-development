@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --prime: rgb(22, 237, 112);
+  --sec: rgb(160 207 249);
+  --text: white;
+  --bg: rgb(56, 26, 138);
+}
+
+/* :root {
+  --prime: rgb(20, 95, 51);
+  --sec: rgb(33, 64, 92);
+  --text: rgb(224, 219, 219);
+  --bg: rgb(46, 32, 85);
+} */
+
+/* :root {
+  --prime: rgb(68, 216, 48);
+  --sec: rgb(16, 134, 236);
+  --text: rgb(255, 255, 255);
+  --bg: rgb(171, 40, 204);
+} */
+
+body{
+    background-color: var(--sec);
+}
+
+.nav {
+  background-color: var(--prime);
+}
+
+ul li {
+  list-style: none; /* for removing the bullets */
+  padding: 15px;
+  font-weight: bolder;
+}
+
+ul {
+  display: flex; /* for side by side nav bar  */
+  
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: var(--text); /* Font color on hover */
+}
+
+
+ul li:hover {
+    background-color: var(--bg);
+    
+}
