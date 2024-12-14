@@ -1,0 +1,21 @@
+img{
+    width: 200px;
+    float:left;
+    /* image will allow other contents beside its right side  */
+}
+
+.cards{
+    display: flow-root;
+    /* to solve the img overflow issue */
+    border: 2px solid black;
+}
+
+.card{
+    border: 2px solid red;
+}
+
+.card:nth-child(3){
+    background-color: aqua;
+    clear: both;
+    /* no floating elements will stay in its right, left and both side */
+}
