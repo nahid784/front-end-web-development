@@ -1,0 +1,57 @@
+.box:nth-child(1){
+    background-color: red;
+}
+
+.box::first-line{
+    color: yellow;
+    /* only first lines of any devices will be yellow colored */
+}
+
+.boxes *{
+    border: 2px solid red;
+    /* all elements will be selected */
+}
+
+/* p, a, .box, [data-color='primary']{
+    margin-top: 45px;
+    padding: 20px;
+    /* effects will be shown where data color is primary ...
+}  grouping can selected with this
+    */
+ 
+[data-color='primary']{
+    margin-top: 45px;
+    padding: 20px;
+    /* effects will be shown where data color is primary */
+}
+
+.box:nth-child(even){
+    background-color: aquamarine;
+    /* can select even or odd children */
+}
+
+.boxes::before{
+    content: 'nahid hasan';
+    /* centent will be entered before boxes using before and after */
+}
+
+.boxes::after{
+    content: "Daffodil International";
+    color: rgb(47, 0, 255);
+}
+
+.box1::selection{
+    color: rgb(109, 175, 236);
+    background-color: rgb(172, 164, 164);
+}
+
+.box::first-letter{
+    color: peru;
+    font-size: 30px;
+    /* first letter color will be changed */
+}
+
+input::placeholder{
+    color: rgb(15, 151, 26);
+    font-size: 15px;
+}
