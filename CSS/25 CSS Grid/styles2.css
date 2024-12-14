@@ -1,0 +1,40 @@
+.container {
+  border: 2px solid rgb(156, 8, 8);
+  display: grid;
+
+  grid-template-areas:
+    "nav nav nav"
+    "side article article"
+    "footer footer footer";
+}
+
+.item {
+  border: 2px solid red;
+  height: 55px;
+  /* width: 55px; */
+}
+
+.item-1 {
+  grid-area: nav;
+  /* item1 took the whole nav section */
+  background-color: aqua;
+}
+.item-2 {
+  grid-area: side;
+  /* using this items take the specific area */
+  background-color: aquamarine;
+}
+
+.item-3 {
+  grid-area: article;
+  background-color: blanchedalmond;
+}
+.item-4 {
+  grid-area: footer;
+  background-color: cadetblue;
+}
+
+.item-5{
+    grid-area: nav;
+    /* overlap item in nav with item 1 */
+}
