@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: beige;
+  border: 2px solid black;
+  /* transform: rotate(40deg); */
+  /* to rotate the box 40deg */
+
+  /* transform: rotate(0.25turn); */
+  /* 1/4 of 360' = 90' */
+
+  /* transform: rotateX(40deg); */
+  /* will rotate in x axis */
+
+  /* transform: rotateY(40deg); */
+  /* will rotate in y axis */
+
+  /* transform: rotateZ(40deg); */
+  /* will rotate in z axis under screen */
+
+  /* transform: scale(1.6); */
+  /* it will be bigger or smaller, can be scaled in X,Y,Z like transform */
+
+  /* transform: skew(5deg); */
+  /* skew can be done only in X,Y axis */
+  
+  /* transform: translate(34px); */
+  /* most used properties, can be use % */
+
+  /* transform: translateX(34%) skew(40deg) translateY(35px); */
+  /* multiple properties */
+
+  /* tranform mainly used in navbar, for hiding the navbar using minus values */
+
+  transform: rotate(45deg);
+  transform-origin: 50% 50%;
+  /* box will rotate according to this origin point */
+
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100vw;
+  height: 80vh;
+  border: 2px solid purple;
+}
