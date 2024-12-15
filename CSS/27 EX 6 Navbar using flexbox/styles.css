@@ -1,0 +1,44 @@
+.logo img {
+  width: 160px;
+  /* setting the logo size */
+}
+
+nav {
+  display: flex;
+  /* for placing logo and menu vertically */
+  justify-content: space-around;
+  /* space between logo and menu */
+  align-items: center; /* for vertical align */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right ul {
+  display: flex;
+  /* menu verical placing */
+  gap: 40px;
+  /* gap between menu texts */
+}
+
+.right ul li {
+  list-style: none;
+  /* for removing bullets */
+  display: flex;
+  /* for placing text and arrow vertically */
+  align-items: center;
+  /* for row alignments to center */
+  cursor: pointer;
+}
+
+.right ul li span {
+  padding: 10px;
+}
+
+.right ul li a {
+  text-decoration: none;
+  /* for removing underlines from menu texts which is link */
+  color: black;
+  /* for menu text color */
+}
+.right ul li a:hover {
+  color: rgb(77, 76, 76);
+}
