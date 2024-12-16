@@ -1,0 +1,75 @@
+.container {
+  background-color: aquamarine;
+  height: 80vh;
+  width: 30vw;
+}
+
+.box {
+  /* background-color: blanchedalmond; */
+  height: 45px;
+  width: 34px;
+
+  /* before shorthand */
+  /* animation: nahidanimation; */
+  /* animation-duration: 2s; */
+
+  /* animation-iteration-count: 1; */
+  /* will run up to 3 times */
+
+  /* animation-iteration-count: infinite; */
+  /* infinite run */
+
+  /* animation-timing-function: ease-out; */
+  /* animation-timing-function: cubic-bezier(0,-0.01, 0, 1.04); */
+
+  /* animation-delay: 1s; */
+
+  /* animation-direction: reverse; */
+  /* opposite */
+
+  /* animation-direction: alternate-reverse; */
+
+  /* animation-play-state: paused; */
+  /* to pause the animation */
+
+  /* after shorthand */
+
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+  /* animation: nahidanimation 3s ease-in-out 1 forwards; */
+  /* using forward it stays at final place  */
+
+  /* will back to initial */
+  animation: nahidanimation 3s ease-in-out 3s 1 backwards, nahid2 3s ease-in-out 3s 1;
+}
+
+@keyframes nahidanimation {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+    transform: translateX(1000px);
+  }
+}
+
+
+/* multiple animations */
+@keyframes nahid2 {
+    0%{
+        transform: rotate(45deg);
+    }
+    20%{
+        transform: rotate(200deg);
+    }
+    50%{
+        transform: rotate(230deg);
+    }
+    80%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(350deg);
+    }
+
+}
