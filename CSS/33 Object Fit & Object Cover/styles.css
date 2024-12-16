@@ -1,0 +1,50 @@
+.container {
+  height: 550px;
+  width: 450px;
+  border: 2px solid black;
+  /* background-color: rgb(207, 231, 236); */
+  /* background-image: url("https://images.unsplash.com/photo-1692533436686-5c04084a8296?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+
+  /* background-position: center; */
+
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUdIe37t-Pej9f7MEf41fw4WB04jSaIfnD0Q&s);
+
+  /* background-repeat: no-repeat; */
+  /* image wont be repeated */
+
+    background-repeat: repeat-x;
+    /* image wont be repeating in x axis */
+
+    background-position: center center;
+
+    background-clip: border-box;
+    /* search od mdn reference */
+    
+
+    
+
+
+}
+
+img {
+  height: 550px;
+  width: 450px;
+  object-fit: cover;
+  /* it will cover its img area not container area. covering will cut some of picture content */
+
+  /* object-fit: contain; */
+  /* it will show the whole image but will left some space */
+
+  /* object-position: bottom right; */
+  /* can specify which section can be shown in image area in cover */
+
+  /* object-fit: fill; */
+  /* will be shown full image but distorted */
+
+  /* object-fit: scale-down; */
+
+  /* obejct will be scaled down */
+
+  object-position: 10px 20px;
+  /* will be shown at specific place as my position */
+}
