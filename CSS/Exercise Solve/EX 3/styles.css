@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vw;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 280px;
+  margin: 12px;
+  padding: 15px;
+}
+
+img {
+  width: 280px;
+  border-radius: 12px;
+}
+
+.capsules {
+  padding: 12px 0px 0px 8px;
+}
+
+span {
+  margin: 0px 7px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 0px 7px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  padding: 10px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: gray;
+}
+
+.content {
+  padding: 12px 8px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button button {
+  font-size: 17px;
+  border-radius: 17px;
+  background-color: rgb(216, 236, 253);
+  color: rgb(14, 150, 234);
+  border: none;
+  padding: 7px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: rgb(194, 225, 246);
+  color: rgb(10, 136, 214);
+}
