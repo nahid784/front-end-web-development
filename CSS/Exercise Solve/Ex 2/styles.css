@@ -1,0 +1,19 @@
+div :first-child {
+    background-color: yellow;
+
+    color: red;
+}
+
+p {
+    background-color: blue;
+    color: white;
+
+}
+
+/* second method */
+
+/* div p:nth-child(2){
+    background-color: rebeccapurple;
+    color: green;
+} */
+
