@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --prime: grey;
+    --sec: rgb(241, 213, 159);
+    --fcolor: rgb(255, 255, 255);
+    --body: rgb(158, 240, 240);
+    --hover: rgb(152, 153, 153);
+}
+
+
+body{
+    background-color: var(--body);
+
+}
+
+.nav{
+    background-color: var(--prime);
+}
+
+.li{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    /* to make take the navbar items right side */
+
+}
+
+li{
+    padding: 15px 20px;
+}
+
+.li a{
+    text-decoration: none;
+    color: var(--fcolor);
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+.li li:hover{
+    background-color: var(--hover);
+    cursor: pointer;
+    /* hover color change on menu */
+}
+
+.li a:hover{
+    color: var(--sec);
+}
