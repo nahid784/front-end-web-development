@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --nav: violet;
+  --body: black;
+  --bigb: green;
+  --box1: pink;
+  --box2: blue;
+  --icon: orange;
+  --fnt: white;
+  --footer: teal;
+}
+
+header{
+    position: sticky;
+    top: 0%;
+    /* for sticky header */
+}
+
+.main{
+    padding: 34px;
+}
+
+.nav {
+  background-color: var(--nav);
+  padding: 20px;
+}
+
+body {
+  background-color: var(--body);
+  /* min-height: 150vh; */
+}
+
+.bigbox {
+  display: flex;
+  height: 65vh;
+  background-color: var(--bigb);
+  margin: 15px 15px 15px 15px;
+  padding: 55px 20px;
+}
+
+.box1 {
+  background-color: var(--box1);
+  height: 65vh;
+  width: 45vw;
+  margin: 0px 12px;
+}
+
+.box2 {
+  background-color: var(--box2);
+  height: 65vh;
+  width: 45vw;
+  margin: 0px 12px;
+}
+
+.title {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: var(--fnt);
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 10px 20px 15px;
+    width: 60vw;
+    margin: 50px 16vw;
+}
+
+.round{
+  background-color: var(--icon);
+  border: 2px solid blue;
+  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round:hover{
+  background-color: aqua;
+  border-radius: 17px;
+  border: 3px solid blueviolet;
+}
+
+
+footer{
+    background-color: var(--footer);
+    height: 120px;
+    bottom: 0%;
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+  /* for smooth scroll */
+}
