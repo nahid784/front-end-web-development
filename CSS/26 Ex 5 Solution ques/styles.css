@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+.container{
+    background-color: green;
+    margin: 12px 34px;
+    text-align: center;
+    padding: 55px 23px  ;
+}
+
+.box1{
+    background-color: pink;
+    height: 70vh;
+    width: 45%;
+    display: inline-block;
+    margin: 0px 12px;
+}
+
+.box2{
+    background-color: blue;
+    height: 70vh;
+    width: 45%;
+    display: inline-block;
+    margin: 0px 12px;
+}
+header{
+    position: sticky; 
+    top:0;
+    /* for sticky header */
+}
+
+nav{
+    background-color: pink;
+    height: 83px;
+}
+
+.text-box{
+    padding: 34px;
+    border: 2px solid white;
+    margin: 50px 30vw;
+    font-size: 2em;
+    border-radius: 13px;
+    /* text box style */
+}
+
+.orangebox{
+    height: 32px;
+    width: 32px;
+    border: 2px solid blue;
+    background: yellow;
+    position: fixed;
+    bottom: 12px;
+    right: 23px;
+    border-radius: 60px;
+    /* for circle shape */
+
+}
+
+footer{
+    background-color: bisque;
+    height: 100px;
+}
