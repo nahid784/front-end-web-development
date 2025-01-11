@@ -31,22 +31,22 @@ div b {
 }
 
 /* pseudo selector */
-a:visited{
-    color: rgb(255, 0, 234);
+a:visited {
+  color: rgb(255, 0, 234);
 }
 
-a:link{
-    color: green;
+a:link {
+  color: green;
 }
 
-a:active{
-    background-color: teal;
+a:active {
+  background-color: teal;
 }
 
-a:hover{
-    background-color: aqua;
+a:hover {
+  background-color: aqua;
 }
 
-i:first-child{
-    background-color: bisque;
+i:first-child {
+  background-color: bisque;
 }
