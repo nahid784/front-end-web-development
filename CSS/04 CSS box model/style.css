@@ -1,33 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
-    /* to reset the margin for site page */
+* {
+  margin: 0;
+  padding: 0;
+  /* to reset the margin for site page */
 }
 
-.box{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.box {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.box1{
-    background-color: aqua;
-    padding: 15px;
-    margin: 10px;
-    border: 2px solid blue;
-    height: 100px;
-    /* only content height is 200 */
-    box-sizing: border-box;
-    /* now content + border + padding height is 200px */
- 
+.box1 {
+  background-color: aqua;
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid blue;
+  height: 100px;
+  /* only content height is 200 */
+  box-sizing: border-box;
+  /* now content + border + padding height is 200px */
 }
 
-.box2{
-    background-color: rgb(145, 157, 229);
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid red;
-    height: 100px;
-    /* without box sizing */
-     
+.box2 {
+  background-color: rgb(145, 157, 229);
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid red;
+  height: 100px;
+  /* without box sizing */
 }
