@@ -42,8 +42,8 @@ h1 {
 
 /* the specificity of this selector is 1 + 10 = 11*/
 h3.pink {
-    color: rgb(158, 56, 25);
-  }
+  color: rgb(158, 56, 25);
+}
 
 /* the specificity of this selector is 10 */
 .brown {
@@ -52,8 +52,5 @@ h3.pink {
 
 /* the specificity of this selector is 1 + 10 + 10 + 10 + 10 = 41 */
 a.nhdclass.nahid-class[href]:hover {
-    color: darkgray;
-
+  color: darkgray;
 }
-
-
