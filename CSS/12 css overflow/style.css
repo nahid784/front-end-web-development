@@ -1,28 +1,32 @@
-.box{
+.box {
     width: 10vw;
     height: 20vh;
     border: 2px solid black;
 }
-.box1{
+
+.box1 {
     width: 30vw;
     height: 20vh;
     border: 2px solid black;
     overflow: scroll;
 }
-.box2{
+
+.box2 {
     width: 30vw;
     height: 20vh;
     border: 2px solid black;
     overflow: auto;
 }
-.box3{
+
+.box3 {
     width: 30vw;
     height: 10vh;
     border: 2px solid black;
     overflow: auto;
     white-space: nowrap;
 }
-.box4{
+
+.box4 {
     width: 30vw;
     height: 10vh;
     border: 2px solid black;
@@ -30,19 +34,21 @@
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.box5{
+
+.box5 {
     width: 30vw;
     height: 20vh;
     border: 2px solid black;
     overflow-x: hidden;
     overflow-y: scroll;
-    
+
 }
-.box6{
+
+.box6 {
     width: 30vw;
     height: 20vh;
     border: 2px solid black;
     overflow: hidden auto;
     /* first one is x-axis and 2nd one is y-asix */
-    
+
 }
