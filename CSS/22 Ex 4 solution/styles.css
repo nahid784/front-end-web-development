@@ -25,8 +25,8 @@
   --bg: rgb(171, 40, 204);
 } */
 
-body{
-    background-color: var(--sec);
+body {
+  background-color: var(--sec);
 }
 
 .nav {
@@ -34,26 +34,26 @@ body{
 }
 
 ul li {
-  list-style: none; /* for removing the bullets */
+  list-style: none;
+  /* for removing the bullets */
   padding: 15px;
   font-weight: bolder;
 }
 
 ul {
-  display: flex; /* for side by side nav bar  */
-  
+  display: flex;
+  /* for side by side nav bar  */
 }
 
-ul li a{
-    text-decoration: none;
+ul li a {
+  text-decoration: none;
 }
 
-ul li a:hover{
-    color: var(--text); /* Font color on hover */
+ul li a:hover {
+  color: var(--text);
+  /* Font color on hover */
 }
-
 
 ul li:hover {
-    background-color: var(--bg);
-    
+  background-color: var(--bg);
 }
