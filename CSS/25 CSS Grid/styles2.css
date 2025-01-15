@@ -19,6 +19,7 @@
   /* item1 took the whole nav section */
   background-color: aqua;
 }
+
 .item-2 {
   grid-area: side;
   /* using this items take the specific area */
@@ -29,12 +30,13 @@
   grid-area: article;
   background-color: blanchedalmond;
 }
+
 .item-4 {
   grid-area: footer;
   background-color: cadetblue;
 }
 
-.item-5{
-    grid-area: nav;
-    /* overlap item in nav with item 1 */
+.item-5 {
+  grid-area: nav;
+  /* overlap item in nav with item 1 */
 }
