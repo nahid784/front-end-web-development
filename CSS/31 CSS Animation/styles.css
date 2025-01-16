@@ -47,6 +47,7 @@
   from {
     background-color: red;
   }
+
   to {
     background-color: yellow;
     transform: translateX(1000px);
@@ -56,20 +57,24 @@
 
 /* multiple animations */
 @keyframes nahid2 {
-    0%{
-        transform: rotate(45deg);
-    }
-    20%{
-        transform: rotate(200deg);
-    }
-    50%{
-        transform: rotate(230deg);
-    }
-    80%{
-        transform: rotate(300deg);
-    }
-    100%{
-        transform: rotate(350deg);
-    }
+  0% {
+    transform: rotate(45deg);
+  }
+
+  20% {
+    transform: rotate(200deg);
+  }
+
+  50% {
+    transform: rotate(230deg);
+  }
+
+  80% {
+    transform: rotate(300deg);
+  }
+
+  100% {
+    transform: rotate(350deg);
+  }
 
 }
