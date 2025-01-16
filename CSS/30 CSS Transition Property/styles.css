@@ -1,10 +1,10 @@
-.container{
+.container {
     background-color: red;
     width: 50vw;
     height: 40vh;
 }
 
-.box{
+.box {
     background-color: aqua;
     width: 5vw;
     height: 4vh;
@@ -25,7 +25,7 @@
     /* transition: all 3s ease-in-out 1s; */
 }
 
-.translate{
+.translate {
     transform: translateX(10vw) translateY(10vh) scale(2);
     background-color: blue;
 }
