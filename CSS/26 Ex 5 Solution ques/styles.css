@@ -1,20 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-main{
+
+main {
     background-color: black;
     color: white;
     padding: 34px;
 }
-.container{
+
+.container {
     background-color: green;
     margin: 12px 34px;
     text-align: center;
-    padding: 55px 23px  ;
+    padding: 55px 23px;
 }
 
-.box1{
+.box1 {
     background-color: pink;
     height: 70vh;
     width: 45%;
@@ -22,25 +24,26 @@ main{
     margin: 0px 12px;
 }
 
-.box2{
+.box2 {
     background-color: blue;
     height: 70vh;
     width: 45%;
     display: inline-block;
     margin: 0px 12px;
 }
-header{
-    position: sticky; 
-    top:0;
+
+header {
+    position: sticky;
+    top: 0;
     /* for sticky header */
 }
 
-nav{
+nav {
     background-color: pink;
     height: 83px;
 }
 
-.text-box{
+.text-box {
     padding: 34px;
     border: 2px solid white;
     margin: 50px 30vw;
@@ -49,7 +52,7 @@ nav{
     /* text box style */
 }
 
-.orangebox{
+.orangebox {
     height: 32px;
     width: 32px;
     border: 2px solid blue;
@@ -62,7 +65,7 @@ nav{
 
 }
 
-footer{
+footer {
     background-color: bisque;
     height: 100px;
 }
