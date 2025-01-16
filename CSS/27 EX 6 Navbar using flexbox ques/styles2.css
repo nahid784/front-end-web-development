@@ -7,53 +7,75 @@
 
 /* Styling the navbar */
 nav {
-    background-color: rgb(255, 255, 255); /* Change the background to white */
-    height: 85px; /* Set the height */
-    border-bottom: 1px solid #ccc; /* Add a light border at the bottom */
+    background-color: rgb(255, 255, 255);
+    /* Change the background to white */
+    height: 85px;
+    /* Set the height */
+    border-bottom: 1px solid #ccc;
+    /* Add a light border at the bottom */
 }
 
 /* Styling the container that holds the logo and the menu */
 .navbar-container {
-    display: flex; /* Flexbox layout */
-    justify-content: space-between; /* Space between logo and menu */
-    align-items: center; /* Align vertically */
-    max-width: 1200px; /* Set max width */
-    margin: 0 auto; /* Center the container */
-    padding: 0 30px; /* Padding on left and right */
+    display: flex;
+    /* Flexbox layout */
+    justify-content: space-between;
+    /* Space between logo and menu */
+    align-items: center;
+    /* Align vertically */
+    max-width: 1200px;
+    /* Set max width */
+    margin: 0 auto;
+    /* Center the container */
+    padding: 0 30px;
+    /* Padding on left and right */
 }
 
 /* Styling the logo section */
 .logo img {
-    height: 50px; /* Set the logo height */
+    height: 50px;
+    /* Set the logo height */
 }
 
 /* Styling the menu items */
 .menu {
-    display: flex; /* Flexbox for menu items */
-    gap: 40px; /* Increased gap between menu items */
-    font-family: Arial, sans-serif; /* Font family */
-    font-size: 16px; /* Font size */
-    font-weight: bold; /* Font weight */
+    display: flex;
+    /* Flexbox for menu items */
+    gap: 40px;
+    /* Increased gap between menu items */
+    font-family: Arial, sans-serif;
+    /* Font family */
+    font-size: 16px;
+    /* Font size */
+    font-weight: bold;
+    /* Font weight */
 }
 
 /* Each individual menu item */
 .menu div {
-    color: #333; /* Dark text color */
-    cursor: pointer; /* Pointer cursor on hover */
-    position: relative; /* To position the dropdown indicator */
+    color: #333;
+    /* Dark text color */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    position: relative;
+    /* To position the dropdown indicator */
 }
 
 /* Adding hover effect to each menu item */
 .menu div:hover {
-    color: #000; /* Darker color when hovering over items */
+    color: #000;
+    /* Darker color when hovering over items */
 }
 
 /* Styling for dropdown arrows */
 .menu div::after {
-    content: " ▼"; /* Add the dropdown indicator arrow */
-    font-size: 12px; /* Smaller size for the arrow */
+    content: " ▼";
+    /* Add the dropdown indicator arrow */
+    font-size: 12px;
+    /* Smaller size for the arrow */
     position: absolute;
-    right: -20px; /* Position the arrow */
+    right: -20px;
+    /* Position the arrow */
     top: 0;
 }
 
