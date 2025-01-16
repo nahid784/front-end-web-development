@@ -8,7 +8,8 @@ nav {
   /* for placing logo and menu vertically */
   justify-content: space-around;
   /* space between logo and menu */
-  align-items: center; /* for vertical align */
+  align-items: center;
+  /* for vertical align */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -39,6 +40,7 @@ nav {
   color: black;
   /* for menu text color */
 }
+
 .right ul li a:hover {
   color: rgb(77, 76, 76);
 }
