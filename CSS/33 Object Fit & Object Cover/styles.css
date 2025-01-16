@@ -12,13 +12,13 @@
   /* background-repeat: no-repeat; */
   /* image wont be repeated */
 
-    background-repeat: repeat-x;
-    /* image wont be repeating in x axis */
+  background-repeat: repeat-x;
+  /* image wont be repeating in x axis */
 
-    background-position: center center;
+  background-position: center center;
 
-    background-clip: border-box;
-    /* search od mdn reference */
+  background-clip: border-box;
+  /* search od mdn reference */
 
 }
 
