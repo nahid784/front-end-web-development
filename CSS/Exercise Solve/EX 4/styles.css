@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --prime: grey;
     --sec: rgb(241, 213, 159);
     --fcolor: rgb(255, 255, 255);
@@ -12,16 +12,16 @@
 }
 
 
-body{
+body {
     background-color: var(--body);
 
 }
 
-.nav{
+.nav {
     background-color: var(--prime);
 }
 
-.li{
+.li {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
@@ -29,24 +29,24 @@ body{
 
 }
 
-li{
+li {
     padding: 15px 20px;
 }
 
-.li a{
+.li a {
     text-decoration: none;
     color: var(--fcolor);
     font-family: sans-serif;
     font-weight: bold;
-    
+
 }
 
-.li li:hover{
+.li li:hover {
     background-color: var(--hover);
     cursor: pointer;
     /* hover color change on menu */
 }
 
-.li a:hover{
+.li a:hover {
     color: var(--sec);
 }
