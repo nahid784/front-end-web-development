@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: rgb(224, 223, 223);
 }
 
-.container{
+.container {
     padding: 10px;
     border: none;
     height: 80px;
@@ -16,29 +16,29 @@ body{
     align-items: center;
     gap: 25px;
     cursor: pointer;
-    
+
 }
 
-img{
+img {
     margin: 0px 0px 0px 50px;
     height: 60px;
 }
 
-.menu{
+.menu {
     margin: 0px 250px;
 }
-.item{
+
+.item {
     padding: 15px;
     font-family: sans-serif;
 }
 
-.down{
+.down {
     height: 20px;
     margin: 0px 0px -5px 0px;
 }
 
-.item:hover{
+.item:hover {
     opacity: 75%;
 
 }
-
