@@ -14,14 +14,14 @@
   --footer: teal;
 }
 
-header{
-    position: sticky;
-    top: 0%;
-    /* for sticky header */
+header {
+  position: sticky;
+  top: 0%;
+  /* for sticky header */
 }
 
-.main{
-    padding: 34px;
+.main {
+  padding: 34px;
 }
 
 .nav {
@@ -57,19 +57,19 @@ body {
 }
 
 .title {
-    display: flex;
-    border: 2px solid white;
-    border-radius: 30px;
-    color: var(--fnt);
-    font-size: 30px;
-    display: inline-block;
-    text-align: center;
-    padding: 20px 10px 20px 15px;
-    width: 60vw;
-    margin: 50px 16vw;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: var(--fnt);
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 10px 20px 15px;
+  width: 60vw;
+  margin: 50px 16vw;
 }
 
-.round{
+.round {
   background-color: var(--icon);
   border: 2px solid blue;
   border-radius: 25px;
@@ -83,20 +83,17 @@ body {
   align-items: center;
 }
 
-.round:hover{
+.round:hover {
   background-color: aqua;
   border-radius: 17px;
   border: 3px solid blueviolet;
 }
 
-
-footer{
-    background-color: var(--footer);
-    height: 120px;
-    bottom: 0%;
-
+footer {
+  background-color: var(--footer);
+  height: 120px;
+  bottom: 0%;
 }
-
 
 html {
   scroll-behavior: smooth;
