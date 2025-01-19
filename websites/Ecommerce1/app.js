@@ -59,7 +59,7 @@ const products = [
       // {
       //   code: "lightgray",
       //   img: "./img/crater2.png",
-    
+
       // },
     ],
   },
