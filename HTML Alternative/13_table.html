@@ -1,74 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HTML Table</title>
-        <style>
-            table {
-                width: 300px;
-                height: 200px;
-                border: 3px solid rgb(247, 21, 21);
-                border-collapse: collapse; 
-                border-spacing: 5px; /*not works when collapse is used*/
-            }
-            td, th{
-                border: 1px solid bisque;
-                padding: 15px;  /*content takes space from every side*/
-            }
-            tr{
-                text-align: center;
-            }
-        </style>
-    </head>
+
+<head>
+    <title>HTML Table</title>
+    <style>
+        table {
+            width: 300px;
+            height: 200px;
+            border: 3px solid rgb(247, 21, 21);
+            border-collapse: collapse;
+            border-spacing: 5px;
+            /*not works when collapse is used*/
+        }
+
+        td,
+        th {
+            border: 1px solid bisque;
+            padding: 15px;
+            /*content takes space from every side*/
+        }
+
+        tr {
+            text-align: center;
+        }
+    </style>
+</head>
+
 <body>
-<h2 style="text-align: center;">HTML Table</h2>
-<table> 
-    <!--table styling is used with css not with html-->
-    <caption>
-        Table in html
-    </caption>
-    <colgroup>
-        <col span="5" style="background-color: rgb(202, 108, 108);" />
-    </colgroup>
-    <thead>
-        <tr>
-            <th scope="col">ID</td>     <!--accessible-->
-            <th scope="col">Name</th>
-            <th scope="col">GPA</th>
-            <th scope="col" colspan="2">Mobile</th> <!--coloum takes space of 2 coloums-->
-            
-        </tr>
-    </thead>
+    <h2 style="text-align: center;">HTML Table</h2>
+    <table>
+        <!--table styling is used with css not with html-->
+        <caption>
+            Table in html
+        </caption>
+        <colgroup>
+            <col span="5" style="background-color: rgb(202, 108, 108);" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">ID</td> <!--accessible-->
+                <th scope="col">Name</th>
+                <th scope="col">GPA</th>
+                <th scope="col" colspan="2">Mobile</th> <!--coloum takes space of 2 coloums-->
 
-    <tbody>
-        <tr>
-            
-            <td scope="row">101</td>
-            <td>Nahid</td>
-            <td>5.00</td>
-            <td>015</td>
-            <td rowspan="3">017</td> <!--row takes space of other rows-->
-        </tr>
-        <tr>
-            
-            <td scope="row">102</td>
-            <td>Sadman</td>
-            <td>4.75</td>
-            <td>0456</td>
-            
-        </tr>
-        <tr>
-            
-            <td scope="row">103</td>
-            <td>Abir</td>
-            <td>4.50</td>
-            <td>045</td>
-            
-        </tr>
-    </tbody>
+            </tr>
+        </thead>
 
-</table><br/>
+        <tbody>
+            <tr>
+
+                <td scope="row">101</td>
+                <td>Nahid</td>
+                <td>5.00</td>
+                <td>015</td>
+                <td rowspan="3">017</td> <!--row takes space of other rows-->
+            </tr>
+            <tr>
+
+                <td scope="row">102</td>
+                <td>Sadman</td>
+                <td>4.75</td>
+                <td>0456</td>
+
+            </tr>
+            <tr>
+
+                <td scope="row">103</td>
+                <td>Abir</td>
+                <td>4.50</td>
+                <td>045</td>
+
+            </tr>
+        </tbody>
+
+    </table><br />
 
 
-</body>  
+</body>
 
 </html>
