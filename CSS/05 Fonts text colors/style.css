@@ -22,7 +22,7 @@ h2 {
   text-transform: capitalize; /* first letter capital */
   text-decoration: underline;
   text-decoration-color: rgb(50, 80, 179);
-  text-decoration-style: solid;  /* dotted underline */
+  text-decoration-style: dotted;  /* dotted underline */
   text-decoration-thickness: 4px; /* underline thickness */
   text-indent: 40px; /* text will move right */
 }
