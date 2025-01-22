@@ -31,15 +31,12 @@ h2 {
   font-size: 20px;
   border: 2px solid red;
   width: 200px;
-  text-overflow: clip;
-  /* text will be hidden under box */
-  overflow: hidden;
-  /* overflow text hidden */
+  text-overflow: clip; /* text will be hidden under box */
+  overflow: hidden; /* overflow text hidden */
 }
 .lorem3 {
   font-size: 20px;
   border: 2px solid red;
   width: 140px;
-  word-break: break-all;
-  /* breaks the words */
+  word-break: break-all; /* breaks the words */
 }
