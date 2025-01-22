@@ -17,12 +17,15 @@
 div > p {
   color: rgb(105, 8, 8);
   background-color: rgb(255, 217, 0);
+  
 }
 
 /* 5. Descendant selector */
 div b {
   color: rgb(153, 0, 255);
+  /* any b tag will be targeted */
 }
+
 
 /* 6. universal selector */
 * {
