@@ -33,7 +33,7 @@ div b {
   padding: 0;
 }
 
-/* pseudo selector */
+/* pseudo selectors */
 a:visited {
   color: rgb(255, 0, 234);
 }
