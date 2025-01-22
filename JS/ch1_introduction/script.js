@@ -13,3 +13,7 @@ else{
 // confirmation popup end
 
 console.log("your number is " + a);
+
+document.title = "Webpage title"
+
+document.body.style.backgroundColor = "red"   // added background color as inline css
