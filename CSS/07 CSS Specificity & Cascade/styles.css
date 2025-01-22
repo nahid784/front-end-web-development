@@ -16,7 +16,7 @@ h1 {
 .cpurple {
   color: purple;
 }
-/* last style get first priority */
+/* last class get first priority */
 
 /* if it has multiple css selector then specificity comes */
 
