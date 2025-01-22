@@ -12,7 +12,6 @@ body {
     margin: 10px;
 }
 
-
 .img {
     padding: 5px;
 }
@@ -39,10 +38,8 @@ body {
     text-align: justify;
 }
 
-
 .content p {
     font-size: 13px;
-
 }
 
 .button {
@@ -50,7 +47,7 @@ body {
 }
 
 .button button {
-    background-color: #E0EFFF;
+    background-color: #e0efff;
     padding: 8px 10px;
     border-radius: 15px;
     border: none;
