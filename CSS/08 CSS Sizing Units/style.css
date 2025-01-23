@@ -8,7 +8,9 @@
   width: 80vw;
   height: 10vh;
   /* unit is in viewport  */
+  /* this sizing is for responsive */
   margin: auto;
+  /* margin will take place from left & right, content will be in center for block element */
   background-color: aquamarine;
 }
 
