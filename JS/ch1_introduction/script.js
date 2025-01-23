@@ -1,6 +1,6 @@
 alert("Hello World");   // it will show alert box
 
-console.log("Hey It is a console..") // will show the text in console developer option
+console.log("Hey It is a console..") // it is used for print in js
 
 var a = prompt("Enter your number:");
 var istrue = confirm("this is a confirmation prompt") // confirmation popup start
@@ -14,6 +14,6 @@ else{
 
 console.log("your number is " + a);
 
-document.title = "Webpage title"
+document.title = "Webpage title"  // added document title 
 
 document.body.style.backgroundColor = "red"   // added background color as inline css
