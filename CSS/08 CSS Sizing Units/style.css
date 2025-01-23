@@ -25,6 +25,7 @@
   background-color: aquamarine;
   font-size: 10px;
 }
+
 .container p {
   font-size: 2em;
   /* it will inherit from font size */
