@@ -1,5 +1,6 @@
 #one ul li {
     list-style-type: none;
+    /* for hiding list markers */
 }
 
 #two ul li {
@@ -21,7 +22,7 @@
 /* 2nd method */
 #five ul {
     background-color: yellow;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 /* 3rd method */

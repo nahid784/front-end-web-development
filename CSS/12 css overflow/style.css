@@ -24,6 +24,7 @@
     border: 2px solid black;
     overflow: auto;
     white-space: nowrap;
+    /* will take space horizontally in one line */
 }
 
 .box4 {
@@ -33,6 +34,7 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    /* it will add dot dot */
 }
 
 .box5 {
@@ -40,6 +42,7 @@
     height: 20vh;
     border: 2px solid black;
     overflow-x: hidden;
+    /* can also add clip instead hidden */
     overflow-y: scroll;
 
 }
