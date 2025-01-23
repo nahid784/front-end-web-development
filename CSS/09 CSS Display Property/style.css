@@ -9,10 +9,11 @@
 
 .in {
   border: 2px solid blue;
-  display: inline block;
+  display: inline-block;
   /* block used for taking space */
+  width: 350px;
   margin: 20px;
-  padding: 45px;
+  padding: 40px;
 }
 
 .dis {
