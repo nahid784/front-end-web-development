@@ -1,7 +1,6 @@
 // var a = 50;
 // var b = 60;
 // var c = "Nahid";    // js automatically detects the var datatypes.
-
 // var is a global scope
 
 let a = 50; 
@@ -63,6 +62,15 @@ console.log(o)
 o.salary = "200 core"
 console.log(o)
 // it will replace automatically.
+
+
+// notes:
+// we can use let instead of var
+// var is global scope
+// let is block scope
+// we cannot use number before var like 55var
+// js automatically detects variable datatypes
+// null is showed as object dataype in console
 
 
 
