@@ -5,6 +5,7 @@
 .box::first-line {
     color: yellow;
     /* only first lines of any devices will be yellow colored */
+    /* first line selector */
 }
 
 .boxes * {
