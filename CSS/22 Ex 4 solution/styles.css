@@ -4,12 +4,12 @@
   font-family: "Poppins", sans-serif;
 }
 
-:root {
+/* :root {
   --prime: rgb(22, 237, 112);
   --sec: rgb(160 207 249);
   --text: white;
   --bg: rgb(56, 26, 138);
-}
+} */
 
 /* :root {
   --prime: rgb(20, 95, 51);
@@ -18,12 +18,12 @@
   --bg: rgb(46, 32, 85);
 } */
 
-/* :root {
+:root {
   --prime: rgb(68, 216, 48);
   --sec: rgb(16, 134, 236);
   --text: rgb(255, 255, 255);
   --bg: rgb(171, 40, 204);
-} */
+}
 
 body {
   background-color: var(--sec);
