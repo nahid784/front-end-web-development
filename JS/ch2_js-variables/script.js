@@ -39,7 +39,27 @@ const p = true;
 
 let q = undefined;
 
-let r = null;
+let r = null;   // type of null object imp ques for interview
 
 console.log(x, y, z, p, q, r)
 console.log(typeof x, typeof y, typeof z, typeof p, typeof q, typeof r)
+
+// object
+
+let o = {
+    "name": "Nahid",
+    "job code": 5600
+}
+
+console.log(o)
+
+o.salary = "100 core"
+console.log(o)
+// will add salary automatically in o object.
+
+o.salary = "200 core"
+console.log(o)
+// it will replace automatically.
+
+
+
