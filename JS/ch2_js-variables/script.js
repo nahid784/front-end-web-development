@@ -1,6 +1,4 @@
-var x, y;
-x = 1024;
-y = x;
-x = "foobar";
-document.write("<p>x = " + y + "</p>");
-document.write("<p>x = " + x + "</p>");
+var a = 50;
+var b = 60;
+var c = "Nahid";
+// js automatically detects the var datatypes.
