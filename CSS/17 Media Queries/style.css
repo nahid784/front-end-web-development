@@ -4,6 +4,7 @@ body {
 
 @media screen and (orientation: landscape) {
     body {
+        /* when orientation is potrait it wont show border */
         border: 2px solid rgb(19, 201, 59);
     }
 }
@@ -25,6 +26,7 @@ body {
 
 .boxes {
     display: flex;
+    /* boxes will wrap themselves according to size */
 }
 
 .box {
