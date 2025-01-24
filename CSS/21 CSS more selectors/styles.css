@@ -32,7 +32,7 @@
 }
 
 .boxes::before {
-    content: 'nahid hasan using before selector';
+    content: 'nahid hasan using before selector through css dynamically';
     /* centent will be entered before boxes using before and after */
 }
 
