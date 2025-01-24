@@ -48,8 +48,11 @@ console.log(typeof x, typeof y, typeof z, typeof p, typeof q, typeof r)
 
 let o = {
     "name": "Nahid",
-    "job code": 5600
+    "job code": 5600,
+    "is handsome": true
 }
+
+// it defines about someone or some object
 
 console.log(o)
 
