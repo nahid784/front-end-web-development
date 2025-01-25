@@ -1,70 +1,68 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
-.nav{
-    background-color: palevioletred;
-    height: 80px;
-    width: 100%;
-    position: sticky;
-    top: 0;
+.nav {
+  background-color: palevioletred;
+  height: 80px;
+  width: 100%;
+  position: sticky;
+  top: 0;
 }
-body{
-    background-color: black;
-}
-
-.bbox{
-    background-color: green;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 25px;
+body {
+  background-color: black;
 }
 
-.box1{
-    height: 80vh;
-    width: 40%;
-    background-color: palevioletred;
-    margin: 30px;
+.bbox {
+  background-color: green;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
 }
 
-.box2{
-    height: 80vh;
-    width: 40%;
-    background-color: rgb(20, 110, 184);
-    margin: 20px;
+.box1 {
+  height: 80vh;
+  width: 40%;
+  background-color: palevioletred;
+  margin: 30px;
 }
 
-.txt{
-    border: 2px solid white;
-    padding: 20px;
-    color: white;
-    border-radius: 15px;
-    margin: 25px auto;
-    font-size: 35px;
-    padding: 30px;
-    width: 50%;
-    text-align: center;
-
+.box2 {
+  height: 80vh;
+  width: 40%;
+  background-color: rgb(20, 110, 184);
+  margin: 20px;
 }
 
-
-.icn{
-    position: fixed;
-    height: 20px;
-    width: 20px;
-    border-radius: 25px;
-    background: aqua;
-    z-index: 1;
-    color: aquamarine;
-    bottom: 15px;
-    right: 15px;
+.txt {
+  border: 2px solid white;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+  margin: 25px auto;
+  font-size: 35px;
+  padding: 30px;
+  width: 50%;
+  text-align: center;
 }
 
-.fot{
-    background-color: silver;
-    height: 80px;
-    bottom: 0;
-    width: 100%;
+.icn {
+  position: fixed;
+  height: 20px;
+  width: 20px;
+  border-radius: 25px;
+  background: aqua;
+  z-index: 1;
+  color: aquamarine;
+  bottom: 15px;
+  right: 15px;
+}
+
+.fot {
+  background-color: silver;
+  height: 80px;
+  bottom: 0;
+  width: 100%;
 }
