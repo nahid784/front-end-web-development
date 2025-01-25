@@ -59,6 +59,8 @@
 .item1 {
   /* flex-grow: 2; */
   flex-shrink: 2;
-  /* it cam be shrink in smaller */
+  /* it cam be shrink in smaller in the specific speed */
   align-self: flex-start;
+  /* will align a particular item */
 }
+
