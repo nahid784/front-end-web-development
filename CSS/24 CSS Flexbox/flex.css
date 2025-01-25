@@ -1,11 +1,15 @@
 .container{
-
+    border: 2px solid red;
+    display: flex;
 }
 
 .item{
-    height: 30px;
-    width: 30px;
-    background-color: purple;
+    height: 75px;
+    width: 75px;
+    background-color: blueviolet;
     border: 1px solid black;
     color: white;
+    margin: 4px;
+    text-align: center;
+    align-content: center;
 }
