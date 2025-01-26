@@ -4,7 +4,7 @@
     display: grid;
     /* can define the numbers of coloums and rows */
 
-    grid-template-columns: 120px 100px;
+    grid-template-columns: 120px 100px; 
     /* one coloum  space is 120px another one is 100 px */
 
     grid-template-rows: 100px 100px 100px;
