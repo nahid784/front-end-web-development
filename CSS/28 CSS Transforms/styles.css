@@ -35,7 +35,7 @@
   /* transform: translateX(34%) skew(40deg) translateY(35px); */
   /* multiple properties */
 
-  /* tranform mainly used in navbar, for hiding the navbar using minus values */
+  /* transform mainly used in navbar, for hiding the navbar using minus values */
 
   transform: rotate(45deg);
   transform-origin: 50% 50%;
