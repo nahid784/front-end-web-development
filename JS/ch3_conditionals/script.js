@@ -1,0 +1,1 @@
+console.log("It is a conditional if else of js")
