@@ -16,3 +16,18 @@
     filter: opacity(60%);
 
 }
+
+.img4{
+    filter: sepia(100%);
+}
+
+.img5{
+    filter: invert(0.45);
+    /* all colours will be inverted */
+}
+
+.img6{
+    filter: opacity(.6);
+}
+
+/* check mdn reference for more filters */
