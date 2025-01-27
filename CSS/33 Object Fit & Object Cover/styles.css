@@ -20,7 +20,8 @@
   background-position: center center;
 
   background-clip: border-box;
-  /* search od mdn reference */
+  /* search on mdn reference */
+  /* https://developer.mozilla.org/docs/Web/CSS/background-clip */
 
 }
 
