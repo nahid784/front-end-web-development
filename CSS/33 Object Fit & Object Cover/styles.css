@@ -41,6 +41,8 @@ img {
 
   /* obejct will be scaled down */
 
+  /* object-position:  top right; */
+
   object-position: 10px 20px;
   /* will be shown at specific place as my position */
 }
