@@ -1,0 +1,74 @@
+.container{
+    background-color: rgb(28, 112, 151);
+    height: 80vh;
+    width: 30vh;
+}
+
+.box{
+    width: 34px;
+    height: 45px;
+    background-color: aqua;
+    animation: nahidanimation;
+    /* calling the keyframes */
+    animation-iteration-count: 1;
+    /* animation-iteration-count: infinite; */
+    /* number of animation we want to run */
+    
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/animation */
+
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    /* animation style */
+
+    animation-delay: 2s; 
+    /* animation will start afer this time */
+
+
+    /* animation-direction: reverse; */
+    /* animation will be reverse */
+
+    /* animation-direction: alternate-reverse; */
+
+    /* animation-play-state: paused; */
+    /* animation will be paused */
+
+    /* animation shorthand */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+    /* animation: nahidanimation 3s ease-in-out 1 forwards;  */
+    /* final property will retain for forwards */
+
+    /* initial style will retain using backwards */
+
+    /* multiple animation */
+    animation: nahidanimation 3s ease-in-out 1, nahid2 3s ease-in-out 3s 1; 
+    
+}
+
+@keyframes nahidanimation{
+/* keyframe name */
+    from{
+    
+    }
+
+    to{
+        transform: translateX(300px);
+        /* box will go right side */
+        background-color: red;
+    }
+}
+
+@keyframes nahid2{
+    0%{
+        transform: rotate(100deg);
+    }
+    20%{
+        transform: rotate(200deg);
+    }
+    50%{
+        transform: rotate(220deg);
+    }
+    1000%{
+        transform: rotate(310deg);
+    }
+}
