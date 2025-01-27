@@ -21,8 +21,10 @@
 
   /* animation-timing-function: ease-out; */
   /* animation-timing-function: cubic-bezier(0,-0.01, 0, 1.04); */
+  /* custom timing function */
 
   /* animation-delay: 1s; */
+  /* when it will start after the time */
 
   /* animation-direction: reverse; */
   /* opposite */
