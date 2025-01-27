@@ -31,6 +31,7 @@ img {
   /* object-fit: contain; */
   /* it will show the whole image but will left some space */
 
+  /* object-position:  top right; */
   /* object-position: bottom right; */
   /* can specify which section can be shown in image area in cover */
 
@@ -40,8 +41,6 @@ img {
   /* object-fit: scale-down; */
 
   /* obejct will be scaled down */
-
-  /* object-position:  top right; */
 
   object-position: 10px 20px;
   /* will be shown at specific place as my position */
