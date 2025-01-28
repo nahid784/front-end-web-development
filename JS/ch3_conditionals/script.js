@@ -38,3 +38,18 @@ else {
 if (age == age) {
     console.log("age is equal");
 }
+
+// if else-if statement
+// these three works together
+// if one of them is true then others will not work or run
+if (age != 17) {
+    console.log("only if");
+}
+
+else if (age == 0) {
+    console.log("you are wrong");
+}
+
+else {
+    console.log("you cant drive")
+}
