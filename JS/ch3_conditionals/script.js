@@ -50,6 +50,17 @@ else if (age == 0) {
     console.log("you are wrong");
 }
 
+// we can use multiple else-if statements
+
 else {
     console.log("you cant drive")
 }
+
+// ternary operator
+// condition ? true : false
+a = 10;
+b = 8;
+let c = a > b ? (a - b) :(b-a); 
+console.log("Ternary Operator is ", c);
+// this translates to
+// if a is greater than b then a - b else b - a
