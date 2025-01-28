@@ -70,3 +70,15 @@ h3{
     font-size: 20px;
     font-weight: 600;
 }
+
+.hash{
+    word-break: break-word;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    line-height: 1rem;
+}
+
+.copied{
+    font-size: 8px;
+}
