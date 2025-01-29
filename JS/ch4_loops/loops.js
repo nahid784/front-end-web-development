@@ -46,6 +46,7 @@ while (i < 6) {
 
 // do while loop
 // used for at least one time
+// will check the condition after the first iteration
 let y = 0
 do {
     console.log(y);
