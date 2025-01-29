@@ -5,12 +5,15 @@
 
 body{
     background-color: #ebebeb;
+    width: 65%;
+    flex-direction: column;
+    margin: auto;
 }
 
 .container1{
-    margin: 20px;
+    margin: 20px 0px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 20px;
 }
@@ -26,10 +29,9 @@ span{
 .grid{
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 20px;
+    column-gap: 30px;
     row-gap: 20px;
     margin: auto;
-    width: 65%;
     
 }
 
