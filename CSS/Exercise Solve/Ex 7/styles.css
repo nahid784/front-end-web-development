@@ -1,29 +1,29 @@
 .hero{
-    background-color: azure;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 25px;
+    margin: 30px;
     gap: 25px;
     font-weight: 500;
     
 }
 
-section span img{
+.hero span img{
     width: 90px;
     margin: 0px 23px;   
 }
 
-span{
+.hero span{
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-section p{
-    font-size: 25px;
+.hero p{
+    font-size: 23px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    width: 60vw;
 }
 
 .dwnld{
@@ -44,4 +44,25 @@ section p{
     font-size: 15px;
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ttle{
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ttle img{
+    width: 50px;
+}
+
+.ttle span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.ttle sub{
+    font-size: 12px;
+
 }
