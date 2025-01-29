@@ -46,10 +46,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .content{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin: 30px;
+    margin: auto;
+    width: 70%;
 }
 .ttle{
     display: flex;
@@ -119,4 +117,17 @@
     background-color: #4ca54c;
     cursor: pointer;
     transition: 0.5s;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .grid{ 
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .grid{ 
+        grid-template-columns: 1fr; 
+    }
 }
