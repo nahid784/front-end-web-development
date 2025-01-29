@@ -36,3 +36,18 @@ for (const key in obj) {
 for (const char of "Nahid") {
     console.log(char);  
 } 
+
+// while loop
+i =0;
+while (i < 6) {
+    console.log(i);
+    i++;
+}
+
+// do while loop
+// used for at least one time
+let y = 0
+do {
+    console.log(y);
+    y++;
+} while (y<6);
