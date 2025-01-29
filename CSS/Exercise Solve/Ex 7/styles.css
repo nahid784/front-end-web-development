@@ -5,10 +5,43 @@
     justify-content: center;
     align-items: center;
     margin: 25px;
+    gap: 25px;
+    font-weight: 500;
     
+}
+
+section span img{
+    width: 90px;
+    margin: 0px 23px;   
 }
 
 span{
     font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.dwnld{
+    border: none;
+    border-radius: 8px;
+    background-color: #00b6d1;
+    padding: 15px 20px;
+}
+
+.dwnld:hover{
+    background-color: #09a6bd;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.dwnld a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
