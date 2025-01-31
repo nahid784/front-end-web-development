@@ -24,6 +24,7 @@ else {
     first = "Fire";
 }
 
+rand= Math.random();
 if (rand < 0.33) {
     second = "Engine";
 }
@@ -34,6 +35,7 @@ else {
     second = "Garments";
 }
 
+rand= Math.random();
 if (rand < 0.33) {
     third = "Bros";
 }
@@ -43,3 +45,5 @@ else if (rand < 0.66 && rand >= 0.33) {
 else {
     third = "Hub";
 }
+
+console.log(`${first} ${second} ${third}`);
