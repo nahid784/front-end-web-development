@@ -3,7 +3,7 @@
 // var c = "Nahid";    // js automatically detects the var datatypes.
 // var is a global scope
 
-let a = 50; 
+let a = 50;
 // use let instead of var in modern js
 let b = 60;
 
