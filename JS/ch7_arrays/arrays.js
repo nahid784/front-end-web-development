@@ -59,3 +59,20 @@ let arr3 = arr1.concat(arr2); // concat() method is used to join two arrays
 let arr5 = arr1.concat(arr2, arr4); // concat() method is used to join three arrays
 console.log("after using concat method",arr3)
 console.log("after using concat method in three arrays",arr5)
+
+//  sort() method
+arr = [2, 4, 1, 7, 5, 6];
+console.log("before using sort method",arr)
+arr.sort(); // sort() method is used to sort array elements
+console.log("after using sort method",arr)
+// sorting takes optional compare function and it is used to sort array elements in ascending order
+
+// splice() method
+let numbers = [1, 2, 3, 4, 5];
+console.log("before using splice method",numbers)
+numbers.splice(1,2); // splice() method is used to remove elements from array
+// index 1 and 2 elements will be removed
+console.log("after using splice method",numbers)
+numbers.splice(1,3,222,333); // splice() method is used to add elements at given index
+console.log("after using splice method",numbers) // 222,333 will be added at index 1
+
