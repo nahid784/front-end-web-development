@@ -157,3 +157,13 @@ const greaterthanseven = (e)=>{
 }
 console.log("after using filter 2nd method",arr8.filter(greaterthanseven)); // [8, 9]
 // explanation: greaterthanseven is function and it is used to filter elements
+
+// reduce() method
+let arr9 = [1, 2, 3, 4, 5]; // 1*2*3*4*5 = 120
+const red = (a, b)=>{
+    return a * b; // reduce() method is used to reduce array elements to single value
+}
+console.log("after using reduce method",arr9.reduce(red)); // 120
+
+// array from() method
+let arr10 = Array.from("nahid"); // from() method is used to create array from string
