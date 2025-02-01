@@ -85,4 +85,15 @@ let sliced2 = numbers1.slice(1, 3); // slice() method is used to copy elements o
 console.log("sliced array from index 1 to 3", sliced2); // [2, 3]
 console.log("after using slice method", numbers1); // Original array remains unchanged          
 
+// array with loops
+let a = [1, 2, 93, 5, 6, 88];
+// classical for loop
+for (let i = 0; i < a.length; i++) {
+  const element = a[i];
+  console.log(element);
+}
 
+// for each loop
+a.forEach(value, index, arr)=>{
+    console.log(value, index, arr);
+}
