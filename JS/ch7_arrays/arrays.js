@@ -96,5 +96,13 @@ for (let i = 0; i < a.length; i++) {
 // for each loop
 a.forEach((value, index, arr)=>{
     console.log(value, index, arr);
-
+// explanation: value is element of array, index is index of element, arr is array
 })
+
+// for in loop
+let obj = {
+    a: 1,
+    b: 2,
+    c: 3
+}
+
