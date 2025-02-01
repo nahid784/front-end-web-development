@@ -100,6 +100,7 @@ a.forEach((value, index, arr)=>{
 })
 
 // for in loop
+// it is used for object
 let obj = {
     a: 1,
     b: 2,
@@ -109,6 +110,33 @@ let obj = {
 for (const key in obj) {
     if (obj.hasOwnProperty.call(obj, key)) {
         const element = obj[key];
-        console.log(element);
+        console.log(key,element); // 1, 2, 3 will be printed
+        // explaintion: key is key of object, element is value of key
     }
 }
+
+// for of loop
+// it is directly used for array
+for (const iterator of arr) {
+    console.log(iterator);
+    // explanation: iterator is element of array
+}
+
+for (const value of arr) {
+    console.log("\n",value); // 1, 2, 3, 4, 5, 7
+    // explanation: value is element of array
+}
+
+// map() method
+let arr6 = [1, 2, 3, 4, 5];
+let newarr = [];
+for (let i = 0; i < arr6.length; i++) {
+  newarr.push(arr6[i] * 2);
+}
+console.log("without using map method",newarr); // [2, 4, 6, 8, 10]
+
+let arr7 = [1, 2, 3, 4, 5];
+let newarr1 = arr7.map((value)=>{
+    return value * 3; // map() method is used to create new array with modified elements
+})
+console.log("after using map method",newarr1); // [2, 4, 6, 8, 10]
