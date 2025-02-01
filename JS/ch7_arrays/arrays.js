@@ -68,11 +68,21 @@ console.log("after using sort method",arr)
 // sorting takes optional compare function and it is used to sort array elements in ascending order
 
 // splice() method
-let numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5];
 console.log("before using splice method",numbers)
 numbers.splice(1,2); // splice() method is used to remove elements from array
 // index 1 and 2 elements will be removed
 console.log("after using splice method",numbers)
 numbers.splice(1,3,222,333); // splice() method is used to add elements at given index
 console.log("after using splice method",numbers) // 222,333 will be added at index 1
+
+// slice() method
+let numbers1 = [1, 2, 3, 4];
+console.log("before using slice method", numbers1);
+let sliced1 = numbers1.slice(2); // slice() method is used to copy elements of array
+console.log("sliced array from index 2", sliced1); // [3, 4]
+let sliced2 = numbers1.slice(1, 3); // slice() method is used to copy elements of array
+console.log("sliced array from index 1 to 3", sliced2); // [2, 3]
+console.log("after using slice method", numbers1); // Original array remains unchanged          
+
 
