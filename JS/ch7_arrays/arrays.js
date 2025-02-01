@@ -140,3 +140,20 @@ let newarr1 = arr7.map((value)=>{
     return value * 3; // map() method is used to create new array with modified elements
 })
 console.log("after using map method",newarr1); // [2, 4, 6, 8, 10]
+
+// filter() method used for ui and react development
+let arr8 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let newarr2 = arr8.filter((value)=>{
+    return value > 5; // filter() method is used to filter elements
+})
+console.log("after using filter method",newarr2); // [6, 7, 8, 9]
+
+//filter 2nd methood
+const greaterthanseven = (e)=>{
+    if(e > 6){
+        return true;
+    }
+    return false;
+}
+console.log("after using filter 2nd method",arr8.filter(greaterthanseven)); // [8, 9]
+// explanation: greaterthanseven is function and it is used to filter elements
