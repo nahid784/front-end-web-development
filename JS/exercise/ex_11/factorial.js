@@ -1,1 +1,1 @@
-// c
+// calculate the factorial
