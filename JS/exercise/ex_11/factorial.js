@@ -1,1 +1,1 @@
-// calculate the factorial
+// calculate the factorial of a number using reduce and for loops 
