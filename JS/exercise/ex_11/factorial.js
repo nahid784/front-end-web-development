@@ -5,3 +5,8 @@ let arr = [];
 for (let i = num; i >= 1; i--) {
     arr.push(i);
 }
+
+const fact = (a, b) => {
+    return a * b;
+}
+console.log("factorial of",num, "is:",arr.reduce(fact)); // 120
