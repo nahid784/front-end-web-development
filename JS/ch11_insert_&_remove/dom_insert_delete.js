@@ -8,3 +8,5 @@ document.querySelector(".container").innerHTML  // '\n        <div class="box">T
 
 document.querySelector(".box").innerText    // 'This is a box'
 
+document.querySelector(".container").innerText    // 'This is a box'
+
