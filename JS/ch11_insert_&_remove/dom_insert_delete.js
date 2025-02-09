@@ -10,3 +10,6 @@ document.querySelector(".box").innerText    // 'This is a box'
 
 document.querySelector(".container").innerText    // 'This is a box'
 
+
+document.querySelector(".container").innerText
+// 'This is a box\nThis is a box'
