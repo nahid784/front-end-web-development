@@ -60,3 +60,30 @@ document.querySelector(".box1").removeAttribute("style")
 document.querySelector(".box").dataset
 // DOMStringMap {createdby: 'nahid'}, will show dataset
 
+// insertion method
+let div = document.createElement("div");
+div.innerHTML = "it is inserted by using <b>js</b>"
+div.setAttribute("class", "created");
+document.querySelector(".container").append(div);
+// the element will be added at the end for using append
+
+document.querySelector(".container").before(div);
+// the element will be added before element for using before
+
+// insert adjacent html
+let cont = document.querySelector(".container")
+cont.insertAdjacentHTML("afterend", "i am inserted using adjacent");
+// it will add after the element
+
+document.querySelector(".container").classList
+// DOMTokenList ['container', value: 'container']
+
+document.querySelector(".container").className
+//'container' 
+
+document.querySelector(".container").classList.add("nahid")
+// class will be added, one class cant be added multiple times
+
+document.querySelector(".container").classList.toggle("nahid")
+// it is like on off switch
+
