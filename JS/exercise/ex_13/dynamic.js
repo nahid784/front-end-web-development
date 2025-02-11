@@ -7,7 +7,7 @@
 
 // // need to use styles on the container
 
-function createcard(){
+function createcard() {
     const card = document.createElement("div");
     card.innerHTML = "Title";
     div.setAttribute("class", "created");
