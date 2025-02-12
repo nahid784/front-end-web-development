@@ -5,6 +5,9 @@
   justify-content: center;
   align-items: center;
 }
+.image{
+  position: relative;
+}
 
 .image img{
   width: 200px;
@@ -13,3 +16,16 @@
 .text h1{
   padding: 2px 0;
 }  
+
+.image .capsule{
+  position: absolute;
+    z-index: 1;
+    bottom: 5px;
+    right: 5px;
+    background-color: grey;
+    opacity: 0.8;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+}
