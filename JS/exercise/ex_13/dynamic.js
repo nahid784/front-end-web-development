@@ -7,9 +7,6 @@
 
 // // need to use styles on the container
 
-function createcard() {
-    const card = document.createElement("div");
-    card.innerHTML = "Title";
-    div.setAttribute("class", "created");
-    document.querySelector(".container").append(div);
+function createCard(title, cname, views, monthsold, duration, thumb){
+    let html = ``
 }
