@@ -8,5 +8,5 @@
 // // need to use styles on the container
 
 function createCard(title, cname, views, monthsold, duration, thumb){
-    let html = ``
+    let html =  ``
 }
