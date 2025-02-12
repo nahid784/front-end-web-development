@@ -1,9 +1,13 @@
 .card{
   display: flex;
   border: 2px solid black;
-  width: 700px;
+  width: 900px;
 }
 
 .image img{
   width: 200px;
 }
+
+.text h1{
+  padding: 10px 0;
+}  
