@@ -24,10 +24,15 @@ function createCard(title, cname, views, monthsold, duration, thumb){
             src="${thumb}"
             alt=""
           />
+          <div class="capsule">${duration}</div>
         </div>
         <div class="text">
           <h1>${title}</h1>
           <p>${cname} . ${viewnum} views . ${monthsold} Months ago</p>
         </div>
       </div>`
+
+      document.querySelector(".container").innerHTML = document.querySelector(".container").innerHTML + html;
 }
+
+createCard("Introduction to Backend | Sigma Web Dev video #2", "CodeWithHarry", 56000, 8, "24:12", "https://i.ytimg.com/vi/UzYRQURh_pY/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCuvVlRNxvKcLMpdtUybkODOxsbjw")
