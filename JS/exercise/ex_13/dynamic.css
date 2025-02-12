@@ -1,31 +1,31 @@
-.card{
+.card {
   display: flex;
   border: 2px solid black;
   width: 910px;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  margin: 10px;
+  column-gap: 10px;
 }
-.image{
+.image {
   position: relative;
 }
 
-.image img{
+.image img {
   width: 200px;
+  border-radius: 10px;
 }
 
-.text h1{
-  padding: 2px 0;
-}  
-
-.image .capsule{
+.image .capsule {
   position: absolute;
-    z-index: 1;
-    bottom: 5px;
-    right: 5px;
-    background-color: grey;
-    opacity: 0.8;
-    color: white;
-    padding: 3px;
-    border-radius: 3px;
-    font-size: 14px;
+  z-index: 1;
+  bottom: 5px;
+  right: 5px;
+  background-color: #6c6a6a;
+  opacity: 0.8;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: 14px;
 }
