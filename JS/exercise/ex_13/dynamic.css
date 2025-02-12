@@ -1,7 +1,9 @@
 .card{
   display: flex;
   border: 2px solid black;
-  width: 900px;
+  width: 910px;
+  justify-content: center;
+  align-items: center;
 }
 
 .image img{
@@ -9,5 +11,5 @@
 }
 
 .text h1{
-  padding: 10px 0;
+  padding: 2px 0;
 }  
