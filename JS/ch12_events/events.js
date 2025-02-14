@@ -18,3 +18,8 @@ button1.addEventListener("dblclick",()=>{
     "<b>Text has been changed again after double clicking the button</b>"
     // to select one element we use element selector.
 })
+
+document.addEventListener("keydown",(e)=>{
+    console.log(e)
+    // key listner, button is recorded when any key is pressed
+})
