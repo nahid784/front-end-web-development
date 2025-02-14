@@ -22,4 +22,7 @@ button1.addEventListener("dblclick",()=>{
 document.addEventListener("keydown",(e)=>{
     console.log(e)
     // key listner, button is recorded when any key is pressed
-})
+    
+    console.log(e.key, e.keyCode)
+    
+}) 
