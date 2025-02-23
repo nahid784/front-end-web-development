@@ -9,8 +9,8 @@ setTimeout(() => {
 
 console.log("this is last line")
 
-// CallBack Function
 
+// CallBack Function
 const loadScript = (src, callBack) => {
   let sc = document.createElement("script");
 }
