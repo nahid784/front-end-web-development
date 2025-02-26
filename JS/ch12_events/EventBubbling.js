@@ -15,7 +15,7 @@ document.querySelector(".container").addEventListener("click", () => {
 })
 
 // after stopping bubbling
-document.querySelector(".child1").addEventListener("click", (e) =>  {
+document.querySelector(".child1").addEventListener("click", (e) => {
     e.stopPropagation()
     alert("Child div was clicked !")
 })
@@ -31,7 +31,7 @@ document.querySelector(".container1").addEventListener("click", () => {
 
 // set Interval & timeout
 // i want an element to run repeatedly for every 2 sec
-function getrandom(){
+function getrandom() {
     let val1 = Math.ceil(0 + Math.random() * 255);
     let val2 = Math.ceil(0 + Math.random() * 255);
     let val3 = Math.ceil(0 + Math.random() * 255);
