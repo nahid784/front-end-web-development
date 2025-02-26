@@ -12,4 +12,3 @@ console.log("this is last line")
 const loadScript = (src, callBack) => {
   let sc = document.createElement("script");
 }
-
