@@ -1,54 +1,47 @@
 <!-- important for interview -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event Bubbling</title>
     <style>
-        .child,
-        .child1 {
-            background-color: aliceblue;
-            border: 2px solid blue;
-            padding: 20px;
-            margin: 20px;
-            cursor: pointer;
-        }
+      .child,
+      .child1 {
+        background-color: aliceblue;
+        border: 2px solid blue;
+        padding: 20px;
+        margin: 20px;
+        cursor: pointer;
+      }
 
-        .childContainer,
-        .childContainer1 {
-            background-color: rgb(66, 95, 121);
-            padding: 20px;
-            margin: 20px;
-        }
+      .childContainer,
+      .childContainer1 {
+        background-color: rgb(66, 95, 121);
+        padding: 20px;
+        margin: 20px;
+      }
 
-        .container,
-        .container1 {
-            background-color: rgb(6, 31, 53);
-            padding: 20px;
-            margin: 20px;
-        }
+      .container,
+      .container1 {
+        background-color: rgb(6, 31, 53);
+        padding: 20px;
+        margin: 20px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <section class="childContainer">
-            <div class="child">
-                Event Bubbling
-            </div>
-        </section>
-    </div>
+      <section class="childContainer">
+        <div class="child">Event Bubbling</div>
+      </section>
     </div>
     <div class="container1">
-        <section class="childContainer1">
-            <div class="child1">
-                Stopping Event Bubbling
-            </div>
-        </section>
+      <section class="childContainer1">
+        <div class="child1">Stopping Event Bubbling</div>
+      </section>
     </div>
     <script src="EventBubbling.js"></script>
-</body>
-
+  </body>
 </html>
