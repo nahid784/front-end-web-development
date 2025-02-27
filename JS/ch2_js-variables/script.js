@@ -1,11 +1,13 @@
-
 // notes:
 // we can use let instead of var
 // var is global scope
 // let is block scope
+// variables are case sensitive in JS
 // we cannot use number before var like 55var
+// can us &,_,word.
 // js automatically detects variable datatypes
 // null is showed as object dataype in console
+
 
 // var a = 50;
 // var b = 60;
