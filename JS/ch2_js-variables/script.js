@@ -24,8 +24,7 @@ let c = "Nahid";
 
 console.log(a + b + 8)
 
-console.log(typeof a, typeof b, typeof c)
-
+console.log(typeof a, typeof b, typeof c) 
 // it will print the type of variable(a,b,c) datatypes
 
 const a1 = 6;
