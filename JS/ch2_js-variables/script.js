@@ -32,7 +32,7 @@ const a1 = 6;
 // a1 = a1 + 1;  // not allowed as a1 is declared as constant 
 
 {
-    let a = 40; // as let is a block scope
+    let a = 40; // as let is a block scope, means it can be upadated if we use again
     console.log(a);
 }
 
