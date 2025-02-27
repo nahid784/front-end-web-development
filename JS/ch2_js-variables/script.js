@@ -73,6 +73,11 @@ o.salary = "200 core"
 console.log(o)
 // it will replace automatically.
 
+// camel case - when a variable have multiplewords the first will be in small letter and then the other word's first letter will be capital.
+
+let oneLove = 0;
+let thisIsCamelCase = 1;
+
 
 
 
