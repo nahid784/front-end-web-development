@@ -1,6 +1,6 @@
 // var a = 50;
 // var b = 60;
-// var c = "Nahid";    // js automatically detects the var datatypes.
+// var c = "Nahid";    // js automatically detects the var datatypes(e.g: interger, float, string).
 // var is a global scope
 
 let a = 50;
