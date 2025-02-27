@@ -48,10 +48,10 @@ const boolean = true;
 
 let undfined = undefined;
 
-let none = null;   // type of null object imp ques for interview
+let none = null;   // type of null is object imp ques for interview
 
 console.log(number, string, float, boolean, undfined, none)
-console.log(typeof x, typeof y, typeof z, typeof p, typeof q, typeof r)
+console.log(typeof number, typeof string, typeof float, typeof boolean, typeof undfined, typeof none)
 
 // object
 
