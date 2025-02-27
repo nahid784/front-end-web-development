@@ -24,7 +24,7 @@ let c = "Nahid";
 
 console.log(a + b + 8)
 
-console.log(typeof a, typeof b, typeof c) 
+console.log(typeof a, typeof b, typeof c)
 // it will print the type of variable(a,b,c) datatypes
 
 const a1 = 6;
@@ -38,19 +38,19 @@ const a1 = 6;
 
 // datatypes
 
-let x = 5;
+let number = 5;
 
-let y = "word";
+let string = "word";
 
-let z = 5.55;
+let float = 5.55;
 
-const p = true;
+const boolean = true;
 
-let q = undefined;
+let undfined = undefined;
 
-let r = null;   // type of null object imp ques for interview
+let none = null;   // type of null object imp ques for interview
 
-console.log(x, y, z, p, q, r)
+console.log(number, string, float, boolean, undfined, none)
 console.log(typeof x, typeof y, typeof z, typeof p, typeof q, typeof r)
 
 // object
