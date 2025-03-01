@@ -39,13 +39,16 @@ if (age == age) {
     console.log("age is equal");
 }
 
-// if else-if statement
+// "3" == 3, true (this compares only value)
+// "3" === 3. false (this compares value and datatype)
+
+
+// if, else-if statement
 // these three works together
 // if one of them is true then others will not work or run
 if (age != 17) {
     console.log("only if");
 }
-
 else if (age == 0) {
     console.log("you are wrong");
 }
@@ -64,3 +67,8 @@ let c = a > b ? (a - b) :(b-a);
 console.log("Ternary Operator is ", c);
 // this translates to
 // if a is greater than b then a - b else b - a
+
+// comparison operator
+// && logical and
+//  || logical or
+//  logical not - !
