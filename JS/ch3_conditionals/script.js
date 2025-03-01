@@ -8,8 +8,8 @@ console.log("Summation is ", age + grace);
 console.log("Substract is ", age - grace);
 console.log("Multiplication is ", age * grace);
 console.log("Division is ", age / grace);
-console.log("Power of",age,"^",grace, "is", age ** grace);
-console.log("Remainder or Modulus is ", age % grace) ;
+console.log("Power of", age, "^", grace, "is", age ** grace);
+console.log("Remainder or Modulus is ", age % grace);
 
 // Assignment Operators
 age += grace;   // age = age + grace;
@@ -23,7 +23,7 @@ if (age + grace > 18) {
     console.log("you can drive");
 }
 else {
-    console.log("you cant drive"); 
+    console.log("you cant drive");
 }
 
 // without grace
@@ -63,12 +63,12 @@ else {
 // condition ? true : false
 a = 10;
 b = 8;
-let c = a > b ? (a - b) :(b-a); 
+let c = a > b ? (a - b) : (b - a);
 console.log("Ternary Operator is ", c);
 // this translates to
 // if a is greater than b then a - b else b - a
 
-// comparison operator
-// && logical and
-//  || logical or
-//  logical not - !
+/* comparison operator
+    && logical and
+    || logical or
+    logical not - ! */
