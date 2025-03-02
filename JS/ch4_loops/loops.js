@@ -45,8 +45,9 @@ for (const char of "Nahid") {
 }
 
 // while loop
+console.log("while loop:")
 i = 0;
-while (i < 6) {
+while (i > 6) {
     console.log(i);
     i++;
 }
@@ -54,6 +55,7 @@ while (i < 6) {
 // do while loop
 // used for at least one time
 // will check the condition after the first iteration
+console.log("do-while loop:")
 let y = 0
 do {
     console.log(y);
