@@ -10,8 +10,7 @@ console.log(a + 2);
 
 // for loop
 for (let i = 0; i < 100; i++) {
-    console.log(a+i);
-    
+    console.log(a + i);
 }
 
 // for in loop
@@ -22,23 +21,31 @@ let obj = {
     company: "Google"
 }
 
+console.log("normal for in loop:")
+for (const key in obj) {
+    const element = obj[key];
+    console.log(key, element)
+
+}
+console.log("\n")
+
+console.log("Standard for in loop:")
 for (const key in obj) {
     if (Object.prototype.hasOwnProperty.call(obj, key)) {
         const element = obj[key];
         console.log(key, element)
-        console.log(element)
-        
     }
 }
+console.log("\n")
 
 // for-off loop
 // its used for array and string
 for (const char of "Nahid") {
-    console.log(char);  
-} 
+    console.log(char);
+}
 
 // while loop
-i =0;
+i = 0;
 while (i < 6) {
     console.log(i);
     i++;
@@ -51,4 +58,4 @@ let y = 0
 do {
     console.log(y);
     y++;
-} while (y<6);
+} while (y < 6);
