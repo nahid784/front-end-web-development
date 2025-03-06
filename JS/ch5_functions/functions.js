@@ -38,6 +38,17 @@ console.log("Sum of the numbers is: ", result1);
 console.log("Sum of the numbers is: ", result2);
 console.log("Sum of the numbers is: ", result3);
 
+function optional(a, b, c = 4){
+    return a +b + c;
+}
+
+result4 = optional(5, 4);
+result5 = optional(6, 2);
+
+console.log("using optional parameter:", result4)
+console.log("using optional parameter:", result5)
+
+
 // arrow function
 const func1 = (x) => {
   console.log("Hello", x);
