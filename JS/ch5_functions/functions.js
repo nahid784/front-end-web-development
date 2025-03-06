@@ -20,7 +20,6 @@ nice("Nahid");
 nice("Rahim");
 
 // sum function
-
 function sums(a, b) {
     console.log(a + b);
 }
