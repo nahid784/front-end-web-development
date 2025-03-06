@@ -44,9 +44,11 @@ function optional(a, b, c = 4){
 
 result4 = optional(5, 4);
 result5 = optional(6, 2);
+result6 = optional(6, 2, 2);
 
 console.log("using optional parameter:", result4)
 console.log("using optional parameter:", result5)
+console.log("using optional parameter:", result6)
 
 
 // arrow function
