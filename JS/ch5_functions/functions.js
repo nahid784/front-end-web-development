@@ -51,7 +51,7 @@ console.log("using optional parameter:", result5)
 console.log("using optional parameter:", result6)
 
 
-// arrow function
+// arrow function = resuing function
 const func1 = (x) => {
   console.log("Hello", x);
 };
