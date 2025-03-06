@@ -23,7 +23,6 @@ nice("Rahim");
 function sums(a, b) {
   console.log(a + b);
 }
-
 sums(4, 2);
 
 function sum(a, b) {
