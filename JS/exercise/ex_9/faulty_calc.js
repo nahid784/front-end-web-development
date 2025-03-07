@@ -56,3 +56,5 @@ else{
         console.log("Invalid operation");
     }
 }
+
+// alternative method
