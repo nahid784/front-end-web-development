@@ -58,3 +58,51 @@ else{
 }
 
 // alternative method
+// faulty calculator
+
+let a = Number(prompt("Enter First Number: "));
+let c = prompt("Enter sign:");
+let b = Number(prompt("Enter 2nd Number: "));
+
+
+const rand = Math.random();
+console.log(rand);
+if(rand<0.1){
+    if(c=="+"){
+        addition = a - b;
+        console.log("Addition is:",addition);
+    }
+    if(c=="-"){
+        sub = a / b;
+        console.log("Substraction is:",sub);
+    }
+    if(c=="*"){
+        multi = a + b;
+        console.log("Multiplication is:",multi);
+    }
+    if(c=="/"){
+        divi = a ** b;
+        console.log("Division is:",divi);
+    }
+    
+    
+}
+
+else{
+    if(c=="+"){
+        addition = a + b;
+        console.log("Addition is:",addition);
+    }
+    if(c=="-"){
+        sub = a - b;
+        console.log("Substraction is:",sub);
+    }
+    if(c=="*"){
+        multi = a * b;
+        console.log("Multiplication is:",multi);
+    }
+    if(c=="/"){
+        divi = a / b;
+        console.log("Division is:",divi);
+    }
+}
