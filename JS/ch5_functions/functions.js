@@ -38,18 +38,17 @@ console.log("Sum of the numbers is: ", result1);
 console.log("Sum of the numbers is: ", result2);
 console.log("Sum of the numbers is: ", result3);
 
-function optional(a, b, c = 4){
-    return a +b + c;
+function optional(a, b, c = 4) {
+  return a + b + c;
 }
 
 result4 = optional(5, 4);
 result5 = optional(6, 2);
 result6 = optional(6, 2, 2);
 
-console.log("using optional parameter:", result4)
-console.log("using optional parameter:", result5)
-console.log("using optional parameter:", result6)
-
+console.log("using optional parameter:", result4);
+console.log("using optional parameter:", result5);
+console.log("using optional parameter:", result6);
 
 // arrow function = resuing function
 const func1 = (x) => {
@@ -59,3 +58,16 @@ const func1 = (x) => {
 func1("34");
 func1("Nahid");
 func1("Rahim");
+
+// function to take user input and pre-defined value
+function inputname(n_name) {
+  return `Hello ${n_name}, How are you ?`;
+}
+
+let user_name = prompt("Enter you name !");
+let pre_defined_name = "Pre-Defined Name";
+
+console.log(inputname(user_name));
+console.log(inputname(pre_defined_name));
+alert(inputname(user_name));
+alert(inputname(pre_defined_name));
