@@ -23,6 +23,7 @@ console.log("My name is "+r_name+" and my friend's name is "+friend);
 // template literals
 console.log("After using template literals");
 console.log(`My name is ${r_name} and my friend's name is ${friend}`);
+console.log(`"Nahid"`)
 
 // escape sequences can be used in strings
 console.log("Hello\nWorld"); // new line
