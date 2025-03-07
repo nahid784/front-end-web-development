@@ -50,6 +50,17 @@ console.log("using optional parameter:", result4);
 console.log("using optional parameter:", result5);
 console.log("using optional parameter:", result6);
 
+
+function multi(x, y){
+  return (`The multiplication is: ${x * y}`);
+}
+
+let num1 = Number(prompt("Enter first number:"));
+let num2 = Number(prompt("Enter 2nd number:"));
+
+console.log(multi(num1, num2));
+alert(multi(num1, num2));
+
 // arrow function = resuing function
 const func1 = (x) => {
   console.log("Hello", x);
@@ -71,3 +82,13 @@ console.log(inputname(user_name));
 console.log(inputname(pre_defined_name));
 alert(inputname(user_name));
 alert(inputname(pre_defined_name));
+
+// callback function
+
+function num(n, callback){
+  return callback(n);
+}
+
+const double = (n) => n * 2;
+
+console.log(num(5, double));
