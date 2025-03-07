@@ -28,18 +28,19 @@ let b = prompt("Enter second number");
 
 // Define an object that maps correct operations to faulty ones
 let obj = {
-  "+": "-",
-  "*": "+",
-  "-": "/",
-  "/": "**", // Exponentiation instead of division
+    "+": "-",
+    "*": "+",
+    "-": "/",
+    "/": "**", // Exponentiation instead of division
 };
 
 // Condition to determine whether to perform a correct or faulty operation
 if (random > 0.1) {
-  // 90% of the time, perform the correct calculation
-  alert(`The result is ${eval(`${a} ${c} ${b}`)}`);
+    // 90% of the time, perform the correct calculation
+     console.log(`The result is ${a} ${c} ${b}`)
+    alert(`The result is ${eval(`${a} ${c} ${b}`)}`); 
 } else {
-  // 10% of the time, perform a faulty calculation by replacing the operation
-  c = obj[c]; // Replace operation with the faulty one
-  alert(`The result is ${eval(`${a} ${c} ${b}`)}`);
+    // 10% of the time, perform a faulty calculation by replacing the operation
+    c = obj[c]; // Replace operation with the faulty one
+    alert(`The result is ${eval(`${a} ${c} ${b}`)}`);
 }
