@@ -75,7 +75,7 @@ numbers.splice(1, 2); // splice() method is used to remove elements from array
 // index 1 and 2 elements will be removed
 console.log("after using splice method", numbers);
 numbers.splice(1, 3, 222, 333); // splice() method is used to add elements at given index
-console.log("after using splice method", numbers); // 222,333 will be added at index 1
+console.log("after using splice method", numbers); // 222,333 will be added at index 1 and 3
 
 // slice() method
 let numbers1 = [1, 2, 3, 4];
