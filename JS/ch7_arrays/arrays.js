@@ -37,12 +37,13 @@ console.log("after using push method", arr);
 arr.push("nahid");
 console.log("after using push method", arr);
 
-// shift() method
+// shift() method brother of pop method
 arr = [1, 2, 3, 4, 5, 6];
 arr.shift(); // shift() method is used to remove first element of array
 console.log("after using shift method", arr);
 arr.unshift(100); // unshift() method is used to add element at the beginning of array
 console.log("after using unshift method", arr);
+// unshitf is brother of push
 
 // delete() method
 arr = [1, 2, 3, 4, 5, 6];
