@@ -81,9 +81,9 @@ console.log("after using splice method", numbers); // 222,333 will be added at i
 let numbers1 = [1, 2, 3, 4];
 console.log("before using slice method", numbers1);
 let sliced1 = numbers1.slice(2); // slice() method is used to copy elements of array
-console.log("sliced array from index 2", sliced1); // [3, 4]
+console.log("sliced/started copying array from index 2", sliced1); // [3, 4] copy started from index 2.
 let sliced2 = numbers1.slice(1, 3); // slice() method is used to copy elements of array
-console.log("sliced array from index 1 to 3", sliced2); // [2, 3]
+console.log("sliced array from index 1 to 3", sliced2); // [2, 3] as it doen't include the end array
 console.log("after using slice method", numbers1); // Original array remains unchanged
 
 // array with loops
