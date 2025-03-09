@@ -156,7 +156,7 @@ const greaterthanseven = (e) => {
   }
   return false;
 };
-console.log("after using filter 2nd method", arr8.filter(greaterthanseven)); // [8, 9]
+console.log("after using filter 2nd method", arr8.filter(greaterthanseven)); // [7, 8, 9]
 // explanation: greaterthanseven is function and it is used to filter elements
 
 // reduce() method
