@@ -168,3 +168,4 @@ console.log("after using reduce method", arr9.reduce(red)); // 120
 
 // array from() method
 let arr10 = Array.from("nahid"); // from() method is used to create array from string
+console.log(arr10);
