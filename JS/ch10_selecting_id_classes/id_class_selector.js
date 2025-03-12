@@ -10,7 +10,7 @@ boxes[2].style.backgroundColor = 'blue'
 
 // targeting using id
 document.getElementById("red").style.backgroundColor = 'red'
-// this will target the element that have red id included
+// this will target the element that have red id included, which target particular element
 
 // query selector
 document.querySelector(".box").style.backgroundColor = "green"
