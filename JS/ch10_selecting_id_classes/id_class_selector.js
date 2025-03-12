@@ -17,7 +17,7 @@ document.querySelector(".box").style.backgroundColor = "green"
 // it will select only the first element that will have the class name
 
 // to select all elements of the class
-console.log(document.querySelectorAll(".box"))  // for printing
+console.log(document.querySelectorAll(".box"))  // for printing, in html collection we cannot add styling as it is html collection
 
 // document.querySelectorAll(".box").forEach(e =>{
 //     console.log(e)
@@ -31,7 +31,7 @@ document.getElementsByTagName("div")    // HTMLCollection(9) [div.container, div
 //matches
 e = document.getElementsByTagName("div")
 e[4].matches("#red")
-// to check if the selector matches or not
+// to check if the selector matches or not, means the specific selector will be targeted or not.
 
 //closest
 // to look for the nearest ancestor that matches the user input given css selector
