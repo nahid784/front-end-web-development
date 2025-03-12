@@ -26,7 +26,6 @@ div b {
   /* any b tag will be targeted */
 }
 
-
 /* 6. universal selector */
 * {
   margin: 20;
