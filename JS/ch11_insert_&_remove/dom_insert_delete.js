@@ -57,6 +57,9 @@ document.querySelector(".box1").attributes
 document.querySelector(".box1").removeAttribute("style")
 // style will be removed
 
+document.designMode = "on";
+// any website can be designed on the page. 
+
 document.querySelector(".box").dataset
 // DOMStringMap {createdby: 'nahid'}, will show dataset
 
