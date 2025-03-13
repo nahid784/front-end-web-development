@@ -1,6 +1,6 @@
 console.log("colors the boxes");
 
-// let boxes = document.getElementsByClassName(".box")
+// let boxes = document.getElementsByClassName("box")
 
 // 2nd method
 let boxes = document.querySelector(".container").children;
