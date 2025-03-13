@@ -11,7 +11,7 @@ function getRandomColor() {
   let val1 = Math.ceil(0 + Math.random() * 255);
   let val2 = Math.ceil(0 + Math.random() * 255);
   let val3 = Math.ceil(0 + Math.random() * 255);
-  // math.ceil is provide the next integer of the float values
+  // math.ceil provide the next integer of the float values
   return `rgb(${val1}, ${val2}, ${val3})`;
 }
 
