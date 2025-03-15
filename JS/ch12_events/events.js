@@ -7,7 +7,7 @@ button.addEventListener("click", () => {
   //   when the button is clicked, it will show this alert.
   document.querySelector(".box").innerHTML =
     "<b>Text has been changed after clicking the button</b>";
-  // to select one element we use element selector.
+  // to select one element we use element query selector.
 });
 
 let button1 = document.getElementById("btn1");
