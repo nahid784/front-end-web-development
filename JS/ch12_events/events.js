@@ -49,4 +49,5 @@ let b = setTimeout(() => {
   document.querySelector(".buttn1").style.background = getrandom();
 }, 1000);
 // it will change after certain amount of time (3sec)
+// it will run only one time.
 console.log(b);
