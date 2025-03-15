@@ -20,7 +20,7 @@ button1.addEventListener("dblclick", () => {
 });
 
 button.addEventListener("contextmenu", () => {
-  alert("Dont hack by clicking right click !");
+  alert("Dont hack us by clicking right click !");
 });
 
 document.addEventListener("keydown", (e) => {
