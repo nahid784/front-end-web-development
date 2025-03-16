@@ -17,16 +17,13 @@ function createCard(title, cname, views, monthsold, duration, thumb) {
   //   viewnum = views / 1000 + "K";
   // }
 
-  if (views >= 1000 && views < 1000000){
-    viewnum = (views/1000).toFixed(2) + "K"; 
-
-  }
-  else if (views > 1000000){
-    viewnum = views/1000000 + "M";
-  }
-  else{
+  if (views >= 1000 && views < 1000000) {
+    viewnum = (views / 1000).toFixed(2) + "K";
+  } else if (views > 1000000) {
+    viewnum = views / 1000000 + "M";
+  } else {
     viewnum = views;
-   }
+  }
 
   let html = `<div class="card">
         <div class="image">
