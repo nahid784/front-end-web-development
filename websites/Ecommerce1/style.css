@@ -1,10 +1,9 @@
 html {
   scroll-behavior: smooth;
-  font-family: 'League Spartan', sans-serif;
-  font-family: 'Nunito', sans-serif;
-  font-family: 'Palanquin Dark', sans-serif;
-  font-family: 'Roboto Slab', serif;
-
+  font-family: "League Spartan", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Palanquin Dark", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
 body {
@@ -74,7 +73,6 @@ nav {
   width: 500vw;
   transition: all 1.5s ease-in-out;
 }
-
 
 .sliderItem {
   width: 100vw;
@@ -484,7 +482,7 @@ footer {
   font-size: 14px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   nav {
     padding: 20px;
   }
