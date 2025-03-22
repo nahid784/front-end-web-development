@@ -44,10 +44,12 @@ let a = setInterval(() => {
 }, 3000);
 // it will change bg color in every 3 second
 console.log(a);
+// clearInterval(1) .. to clear SetInterval.
 
 let b = setTimeout(() => {
   document.querySelector(".buttn1").style.background = getrandom();
 }, 1000);
-// it will change after certain amount of time (3sec)
+// it will change after certain amount of time (1sec)
 // it will run only one time.
 console.log(b);
+// clearTimeout(1);  // to clear setTimeOut
