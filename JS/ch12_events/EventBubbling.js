@@ -42,3 +42,5 @@ function getrandom() {
 setInterval(() => {
   document.querySelector(".childContainer").style.background = getrandom();
 }, 3000);
+
+// clearInterval(1) .. to clear SetInterval.
