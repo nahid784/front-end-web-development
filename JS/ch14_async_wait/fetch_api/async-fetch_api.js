@@ -79,11 +79,35 @@ main();
 
 
 // actual function
+// comment task 3 function before running it
 async function fetchapi(){
 // fetch api
-let x = fetch('https://jsonplaceholder.typicode.com/todos/1')
-      .then(response => response.json())
-      .then(json => console.log(json))
-      // free fake rest api
+let x = await fetch('https://jsonplaceholder.typicode.com/todos/1') // returns promise or data collection promise
+let fetch_data = await x.json() // parsing in json mode, using await for promises to settle (resolve means promise has settled successfully / reject means not settled)
+// let fetch_data = await x.text() // parsing in text mode
+console.log("api is ",fetch_data)
+      // .then(response => response.json()) // 2 promises
+      // .then(json => console.log(json))
+      // // free fake rest api
+      return 455
 
 }
+
+async function main() {
+  console.log("Loading Modules");
+
+  console.log("Async Await Method");
+
+  console.log("Load Data");
+
+  let fetch_api = await fetchapi();
+//   await can be used in async function, await stops function to run in background
+
+  console.log(fetch_api);
+
+  console.log("Process Data");
+
+  console.log("task 4 - fetch api");
+}
+
+main();
