@@ -76,3 +76,14 @@ async function main() {
 }
 
 main();
+
+
+// actual function
+async function fetchapi(){
+// fetch api
+let x = fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+      .then(json => console.log(json))
+      // free fake rest api
+
+}
