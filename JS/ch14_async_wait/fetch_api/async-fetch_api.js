@@ -50,6 +50,7 @@ promise_data.then((v) => {
 
 async function get_await_data() {
   // this function will run in background
+  // this function simulate getting data from a server
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(455);
