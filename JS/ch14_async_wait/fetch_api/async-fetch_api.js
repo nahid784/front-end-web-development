@@ -128,7 +128,9 @@ main();
 //   console.log(data);
 // });
 
-// for post request
+// for post request alternatively we can use fetch api as well
+// fetch api for post request
+// post request is used to send data to the server
 fetch('https://jsonplaceholder.typicode.com/posts', {
   method: 'POST',
   body: JSON.stringify({
