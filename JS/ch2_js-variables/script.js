@@ -21,6 +21,8 @@ let c = "Nahid";
 
 console.log(a + b + 8);
 
+console.table([a, b, c]); // it will print the values in table format
+
 console.log(typeof a, typeof b, typeof c);
 // it will print the type of variable(a,b,c) datatypes
 
