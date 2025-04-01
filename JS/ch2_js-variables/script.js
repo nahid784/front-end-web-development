@@ -13,6 +13,7 @@
 // var c = "Nahid";    // js automatically detects the var datatypes(e.g: interger, float, string).
 // var is a global scope
 
+
 let a = 50;
 // use let instead of var in modern js
 let b = 60;
