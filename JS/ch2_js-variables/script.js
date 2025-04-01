@@ -12,7 +12,8 @@
 // var b = 60;
 // var c = "Nahid";    // js automatically detects the var datatypes(e.g: interger, float, string).
 // var is a global scope
-
+// let is a block scope
+// var is not recommended to use in modern js
 
 let a = 50;
 // use let instead of var in modern js
