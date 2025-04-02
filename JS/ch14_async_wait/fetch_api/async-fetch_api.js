@@ -18,7 +18,7 @@ console.log(callback_data);
 
 console.log("Process data");
 console.log("task 1");
-// this is the funcation of asyncronus js as the other code didn't stop for data collection and process
+// this is the function of asyncronus js as the other code didn't stop for data collection and process
 
 // the function to stop other codes if data collection and process didn't completed is Async Await and alternative is promise
 
