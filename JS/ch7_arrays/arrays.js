@@ -43,6 +43,11 @@ console.log("after using push method", arr);
 arr.push("nahid");
 console.log("after using push method", arr);
 
+const marvel_heros = ["ironman", "thor", "spiderman"];
+const dc_heros = ["superman", "batman", "flash"];
+marvel_heros.push(dc_heros);
+console.log(marvel_heros);  // the dc_heros array taken as a whole in marvel_heros array
+
 // shift() method brother of pop method
 arr = [1, 2, 3, 4, 5, 6];
 arr.shift(); // shift() method is used to remove first element of array
@@ -75,6 +80,19 @@ let arr3 = arr1.concat(arr2); // concat() method is used to join two arrays
 let arr5 = arr1.concat(arr2, arr4); // concat() method is used to join three arrays
 console.log("after using concat method", arr3);
 console.log("after using concat method in three arrays", arr5);
+
+// spread operator
+// short method of adding two arrays
+const mcu_villains = ["Kingpin", "Electro", "Thanos"];
+const dc_villains = ["Doomsday", "Darkseid", "Luthor"];
+const new_heros = [...mcu_villains, ...dc_villains]
+console.log(new_heros);
+
+// nested array (rare case)
+const nested_arr = [1,2,3,[4,5,6],7,[8,9,[10,11]]];
+
+const normal_arr = nested_arr.flat(Infinity); // we should add value of how long the depth should be.
+console.log("Normal Array solving nested array",normal_arr);
 
 //  sort() method
 arr = [2, 4, 1, 7, 5, 6];
