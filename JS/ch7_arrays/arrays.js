@@ -93,7 +93,7 @@ const nested_arr = [1,2,3,[4,5,6],7,[8,9,[10,11]]];
 
 const normal_arr = nested_arr.flat(Infinity); // we should add value of how long the depth should be.
 console.log("Normal Array solving nested array",normal_arr);
-
+ 
 //  sort() method
 arr = [2, 4, 1, 7, 5, 6];
 console.log("before using sort method", arr);
@@ -201,5 +201,15 @@ const red = (a, b) => {
 console.log("after using reduce method", arr9.reduce(red)); // 120
 
 // array from() method
+console.log(Array.isArray("Nahid"));
 let arr10 = Array.from("nahid"); // from() method is used to create array from string
 console.log(arr10);
+
+console.log(Array.from({name:"Hasan"}));  // interview question, need to mention keys or values to make array.
+
+// making array from values
+let value1 = 100;
+let value2 = 200;
+let value3= 300;
+
+console.log(Array.of("Making array from value:",value1, value2, value3));
