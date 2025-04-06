@@ -2,12 +2,18 @@
 // arrays will be used in react for making numerous component for web development
 // array is mutable or changable in javascript
 // type of array is object in javascript
+// array in js are resizable & can contain mix data-types.
 
 let arr = [1, 2, 3, 4, 5, 7];
 console.log("array print:", arr); // print array
 console.log("array length", arr.length); // length of array
 console.log("first element of arary", arr[0]); // print first element of array
 console.log("2nd element of arary", arr[1]); // print first element of array
+
+const heros = ["ironman", "thor", "superman"];
+console.log("heros", heros);
+const myarr2 = new Array(1,2,3,4);
+console.log("another array:", myarr2);
 
 // array is mutable or changable in javascript:
 console.log("first element of array before change", arr[0]); // print first element of array
@@ -22,7 +28,7 @@ console.log("array print toString:", arr.toString()); // tostring() method is us
 
 // join() method
 arr = [1, 2, 3, 4, 5, 7];
-console.log("array print join:", arr.join(" and ")); // join() method is used to join array elements with given separator
+console.log("array print join:", arr.join(" and ")); // join() method is used to join array elements with given separator and convert with string also
 
 // pop() method
 arr = [1, 2, 3, 4, 5, 6];
@@ -44,6 +50,15 @@ console.log("after using shift method", arr);
 arr.unshift(100); // unshift() method is used to add element at the beginning of array
 console.log("after using unshift method", arr);
 // unshitf is brother of push
+
+// questionable method
+console.log("does it include ?",arr.includes(12));
+console.log("does it include ?",arr.includes(4));
+
+// array index
+console.log("index is ?",arr.indexOf(12));
+console.log("index is ?",arr.indexOf(4));
+
 
 // delete() method
 arr = [1, 2, 3, 4, 5, 6];
@@ -76,6 +91,7 @@ numbers.splice(1, 2); // splice() method is used to remove elements from array
 console.log("after using splice method", numbers);
 numbers.splice(1, 3, 222, 333); // splice() method is used to add elements at given index
 console.log("after using splice method", numbers); // 222,333 will be added at index 1 and 3
+// it affects the original array..
 
 // slice() method
 let numbers1 = [1, 2, 3, 4];
