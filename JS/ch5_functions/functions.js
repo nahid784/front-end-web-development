@@ -25,6 +25,7 @@ function sums(a, b) {
 }
 sums(4, 2);
 
+//2nd method
 function sum(a, b) {
   return a + b;
   // it is used to return the value of the function
@@ -51,37 +52,37 @@ console.log("using optional parameter:", result5);
 console.log("using optional parameter:", result6);
 
 
-function multi(x, y){
-  return (`The multiplication is: ${x * y}`);
-}
+// function multi(x, y){
+//   return (`The multiplication is: ${x * y}`);
+// }
 
-let num1 = Number(prompt("Enter first number:"));
-let num2 = Number(prompt("Enter 2nd number:"));
+// let num1 = Number(prompt("Enter first number:"));
+// let num2 = Number(prompt("Enter 2nd number:"));
 
-console.log(multi(num1, num2));
-alert(multi(num1, num2));
+// console.log(multi(num1, num2));
+// alert(multi(num1, num2));
 
-// arrow function = resuing function
-const func1 = (x) => {
-  console.log("Hello", x);
-};
+// // arrow function = resuing function
+// const func1 = (x) => {
+//   console.log("Hello", x);
+// };
 
-func1("34");
-func1("Nahid");
-func1("Rahim");
+// func1("34");
+// func1("Nahid");
+// func1("Rahim");
 
-// function to take user input and pre-defined value
-function inputname(n_name) {
-  return `Hello ${n_name}, How are you ?`;
-}
+// // function to take user input and pre-defined value
+// function inputname(n_name) {
+//   return `Hello ${n_name}, How are you ?`;
+// }
 
-let user_name = prompt("Enter you name !");
-let pre_defined_name = "Pre-Defined Name";
+// let user_name = prompt("Enter you name !");
+// let pre_defined_name = "Pre-Defined Name";
 
-console.log(inputname(user_name));
-console.log(inputname(pre_defined_name));
-alert(inputname(user_name));
-alert(inputname(pre_defined_name));
+// console.log(inputname(user_name));
+// console.log(inputname(pre_defined_name));
+// alert(inputname(user_name));
+// alert(inputname(pre_defined_name));
 
 // callback function
 
@@ -92,3 +93,45 @@ function num(n, callback){
 const double = (n) => n * 2;
 
 console.log(num(5, double));
+
+// shopping cart numbers calculate cart price
+
+console.log("Shopping Cart price add function")
+function calcCartPrice(price){
+  return price
+}
+
+console.log(calcCartPrice(2));  // adding only first item
+
+// using rest operator  ... is also spread operator. work based on situation
+console.log("Shopping Cart price add function using rest operator")
+function calcCartPrice1(...price1){
+  return price1
+}
+
+console.log(calcCartPrice1(200,400,500)); // converted to array
+
+const user ={
+  username: "Nahid",
+  designation: "web dev"
+}
+
+function handleobj(object){
+  console.log(`Username is ${object.username} and designation is ${object.designation}`);
+}
+
+handleobj(user)
+
+handleobj({ //  passing object method
+  username: "hasan",
+  designation: "mto"
+})
+
+// passing array method
+const myarray = [200, 400, 500]
+function return2ndvalue(getarray){
+  return getarray[0]
+}
+
+console.log(return2ndvalue(myarray));
+console.log(return2ndvalue([800,200,400]));
