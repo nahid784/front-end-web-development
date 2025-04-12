@@ -136,8 +136,23 @@ console.log(Object.entries(datingUser));   // making the user entries info array
 console.log("to check if any object has the property\n");
 console.log(datingUser.hasOwnProperty('isLoggedIn'));
 console.log(datingUser.hasOwnProperty('isLogged'));
+console.log("\n")
+
+// destructuring - works in react
+const course = {
+    coursename: "Js in bangla",
+    price: "999",
+    courseInstructor: "Nahid",
+}
+
+const {courseInstructor} = course;
+console.log(courseInstructor);
+
+const {coursename: Cname} = course;     // we can give another name also
+console.log(Cname);
 
 
+ 
 // DOM - Document object Model
 
 // dom - document obj model is used to map entire html as map
