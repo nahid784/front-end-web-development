@@ -1,0 +1,13 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "Front-End Web Development is a repository showcasing my journey in learning and mastering front-end technologies. It contains practice projects, learning files, and updates that help improve my overall front-end skills, and I update it day by day to enhance my expertise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @tailwindcss/cli -i ./CSS/Tailwnd/src/input.css -o ./CSS/Tailwind/src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
