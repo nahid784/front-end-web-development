@@ -44,7 +44,13 @@ Step 6: For better control and automation, consider adding this code in package.
 "scripts": {"build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"}
 ```
 
-Step 7: Now, create HTML file and input in in html head:
+Step 8: Run this code to start automation. 
+
+```
+npm run build
+```
+
+Step 9: Now, create HTML file and input in in html head:
 
 ```
 <link rel="stylesheet" href="./output.css" re">
