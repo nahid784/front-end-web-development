@@ -8,6 +8,12 @@ Step 1: Run this command in terminal to create package.json file:
 npm install
 ```
 
+Or to create package.json file in the current directory
+
+```
+npm init -y
+```
+
 Step 2: Install tailwind css as a dev dependency:
 
 ```
