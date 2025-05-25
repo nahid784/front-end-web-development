@@ -1,10 +1,8 @@
 function App() {
   
-
   return (
     <>
-    adsdasd
-    <Navbar/>
+     asdasd
     </>
   )
 }
