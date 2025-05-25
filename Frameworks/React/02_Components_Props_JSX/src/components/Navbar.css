@@ -1,0 +1,22 @@
+body{
+    background-color:whitesmoke;
+}
+
+nav,ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    gap: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav{
+    background-color: bisque;
+    padding: 25px;
+    justify-content: center;
+}
