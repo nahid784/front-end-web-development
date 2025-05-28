@@ -6,9 +6,8 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   let a = 0; // without using useRef is renders the whole page
-  const b = useRef(0)
-  const btnRef = useRef()
 
+  const b = useRef(0)
 
   useEffect(() => {
     a = a + 1;
@@ -18,11 +17,6 @@ function App() {
   useEffect(() => {
     b.current = b.current + 1
     console.log(`Using Useref, its Not rendering whole and The value is ${b.current}`)
-  })
-
-  useEffect(()=>{
-    console.log(`First Rendering..`)
-    btnRef.current.style.backgroundColor = "red";
   })
 
   return (
@@ -37,7 +31,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button ref ={btnRef} onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
