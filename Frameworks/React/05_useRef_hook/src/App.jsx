@@ -47,6 +47,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <button onClick={()=>{btnRef.current.style.display = "none"}}>Remove Button</button> <br /> <br />
+      <button onClick={()=>{btnRef.current.style.display = "flex"}}>Show Button</button>
     </>
   )
 }
