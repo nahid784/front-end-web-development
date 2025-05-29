@@ -23,7 +23,6 @@ function App() {
   const Todo = ({todo})=>{
     return(<>
     <div className="m-4 border border-1 border-yellow-400">
-
     <div className="todo">{todo.title}</div>
     <div className="todo">{todo.desc}</div>
     </div>
@@ -48,7 +47,7 @@ function App() {
 
       {/* for rendering list */}
       {todos.map(todo=>{
-        return <Todo todo = {todo}/>
+        return <Todo key={todo.title} todo = {todo}/>
       })}
 
       <div className="card">
