@@ -5,6 +5,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [showbtn, setShowbtn] = useState(false)
 
   return (
     <>
@@ -17,7 +18,15 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+      {showbtn ? <button>Button showing as Usestate is true.</button> : "UseState is False now"}
+      <br /> <br />
+      {/* better way */}
+      {showbtn && <button>It will show when its true</button> }
+
       <div className="card">
+
+        <button onClick={()=> setShowbtn(!showbtn)}>Show Button</button>
+        <br /> 
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
