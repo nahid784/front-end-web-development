@@ -3,9 +3,32 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+
 function App() {
   const [count, setCount] = useState(0)
   const [showbtn, setShowbtn] = useState(false)
+  // for rendering list
+  const [todos, setTodos] = useState([
+    {
+      title: "hey",
+      desc: "It is description"
+    },
+    {
+      title: "hey again",
+      desc: "It is description 2"
+    },
+  ])
+
+  // creating small component
+  const Todo = ({todo})=>{
+    return(<>
+    <div className="m-4 border border-1 border-yellow-400">
+
+    <div className="todo">{todo.title}</div>
+    <div className="todo">{todo.desc}</div>
+    </div>
+    </>)
+  }
 
   return (
     <>
@@ -22,6 +45,11 @@ function App() {
       <br /> <br />
       {/* better way */}
       {showbtn && <button>It will show when its true</button> }
+
+      {/* for rendering list */}
+      {todos.map(todo=>{
+        return <Todo todo = {todo}/>
+      })}
 
       <div className="card">
 
